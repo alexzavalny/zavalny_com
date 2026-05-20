@@ -51,7 +51,37 @@ def title_of(doc):
                 return t
     return "Путешествие"
 
-def main_content(doc):
+PCLOUD_BASE = "https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com"
+
+def pcloud_dir(slug):
+    return re.sub(r"-mode-(journal|gallery)$", "", slug)
+
+def markdown_from_journal(doc, slug):
+    blocks = re.findall(r'(?is)<div class="journal_photo"[^>]*>(.*?)(?=<div class="journal_photo"|</body>)', doc)
+    if not blocks:
+        return ""
+    parts = []
+    folder = pcloud_dir(slug)
+    # Covers are not guaranteed to exist in the pCloud mirror; keep the in-article photos only.
+    for block in blocks:
+        dm = re.search(r'(?is)<div class="journal_photo_description"[^>]*>(.*?)</div>', block)
+        desc = text_from_html(dm.group(1)) if dm else ""
+        imgs = []
+        for m in re.finditer(r'data-original="([^"]+?/(?:[^/"?#]+\.(?:jpg|jpeg|png)))"', block, re.I):
+            filename = m.group(1).split('/')[-1]
+            if filename not in imgs:
+                imgs.append(filename)
+        if desc:
+            parts.append(desc)
+        for fn in imgs:
+            alt = desc[:80] if desc else fn
+            parts.append(f"![{alt}]({PCLOUD_BASE}/{folder}/{fn})")
+    return "\n\n".join(parts).strip()
+
+def main_content(doc, slug):
+    journal = markdown_from_journal(doc, slug)
+    if journal:
+        return journal
     candidates = []
     for pat in [
         r"(?is)<article[^>]*>(.*?)</article>",
@@ -102,7 +132,7 @@ for ts, orig, code, mt, digest in rows:
             continue
     (RAW / f"{ts}-{slug}.html").write_text(data, encoding="utf-8")
     title = title_of(data)
-    body = main_content(data)
+    body = main_content(data, slug)
     # remove common site chrome fragments if present
     body = re.sub(r"(?is)<iframe[^>]*>.*?</iframe>", "", body)
     body = re.sub(r"(?is)<iframe[^>]*>|</iframe>", "", body)

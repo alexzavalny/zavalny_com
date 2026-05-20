@@ -12,59 +12,230 @@ original_url: "http://www.zavalny.com:80/travel/amsterdam?mode=journal"
 
 На площади возле главного вокзала мы нашли первый (но не единственный) знак "I amsterdam"
 
+![На площади возле главного вокзала мы нашли первый (но не единственный) знак "I a](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16951394499_38e117055a_b.jpg)
+
+![16515158324_ef4269edcb_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16515158324_ef4269edcb_b.jpg)
+
 Отправившись в Кёкенхов - цветочную деревню в городе Лиссе, мы сразу принялись за главное - фотографирование цветов.
 
+![Отправившись в Кёкенхов - цветочную деревню в городе Лиссе, мы сразу принялись з](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16950041930_82237f990a_b.jpg)
+
+![Отправившись в Кёкенхов - цветочную деревню в городе Лиссе, мы сразу принялись з](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17137578595_a3249b5b9b_b.jpg)
+
 К сожалению, далеко не все цветы распустились, и наша мечта сделать фотографии полей из тюльпанов не была исполнена. Но красивые полянки найти всё же было можно.
+
+![К сожалению, далеко не все цветы распустились, и наша мечта сделать фотографии п](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16517412483_8a93c290c4_b.jpg)
+
+![17136013172_071068d57f_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17136013172_071068d57f_b.jpg)
+
+![17137577465_7d6492a4f5_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17137577465_7d6492a4f5_b.jpg)
+
+![16949810928_b1090d4a3a_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16949810928_b1090d4a3a_b.jpg)
+
 Насколько лучше эта фотография смотрелась бы, если бы все деревья уже были зелеными, нам остаётся только догадываться.
+
+![Насколько лучше эта фотография смотрелась бы, если бы все деревья уже были зелен](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16950040240_5b21c25ba7_b.jpg)
+
+![Насколько лучше эта фотография смотрелась бы, если бы все деревья уже были зелен](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16930180307_24334ef0e7_b.jpg)
+
+![Насколько лучше эта фотография смотрелась бы, если бы все деревья уже были зелен](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16515154514_5fc0c81d54_b.jpg)
+
+![Насколько лучше эта фотография смотрелась бы, если бы все деревья уже были зелен](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16517409303_5f2f760707_b.jpg)
+
+![Насколько лучше эта фотография смотрелась бы, если бы все деревья уже были зелен](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17136009472_fa65d7e1f3_b.jpg)
+
+![Насколько лучше эта фотография смотрелась бы, если бы все деревья уже были зелен](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16515153074_50383ee69d_b.jpg)
+
+![Насколько лучше эта фотография смотрелась бы, если бы все деревья уже были зелен](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17136008412_dc8ef3aa8b_b.jpg)
+
 Зато во внутреннем цветочном павильоне никаких проблем. Все цветы распустились.
+
+![Зато во внутреннем цветочном павильоне никаких проблем. Все цветы распустились.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16930177687_e98ba0916d_b.jpg)
+
+![Зато во внутреннем цветочном павильоне никаких проблем. Все цветы распустились.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16949806708_78838ed8e6_b.jpg)
+
+![Зато во внутреннем цветочном павильоне никаких проблем. Все цветы распустились.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16930175957_ebeff2b9c6_b.jpg)
+
+![Зато во внутреннем цветочном павильоне никаких проблем. Все цветы распустились.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16949806798_8bc042d722_b.jpg)
+
+![Зато во внутреннем цветочном павильоне никаких проблем. Все цветы распустились.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16951387379_743f2d4095_b.jpg)
+
+![Зато во внутреннем цветочном павильоне никаких проблем. Все цветы распустились.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16949805248_f33da3f239_b.jpg)
+
+![Зато во внутреннем цветочном павильоне никаких проблем. Все цветы распустились.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17111629486_c5a973520c_b.jpg)
+
 Художница Ксюша всегда найдет место порисовать!
+
+![Художница Ксюша всегда найдет место порисовать!](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17111629276_3a37d2c593_b.jpg)
+
+![16950032010_25c0e1df64_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16950032010_25c0e1df64_b.jpg)
+
+![17136003212_e8f35dd777_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17136003212_e8f35dd777_b.jpg)
+
 Сначала в Амстердаме мы никак не могли найти место для обеда. Но итальянские рестораны спасли нас.
+
+![Сначала в Амстердаме мы никак не могли найти место для обеда. Но итальянские рес](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16515147244_0e1667a10e_b.jpg)
+
+![16515146234_68302144af_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16515146234_68302144af_b.jpg)
+
 А это - французская кафешка Pompadour . Если приедете в Амстердам, обязательно посетите это место. Такого шоколада вы не ели нигде. Разве что, в Laduree в Париже.
 
+![А это - французская кафешка Pompadour . Если приедете в Амстердам, обязательно п](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16951381289_edd2243341_b.jpg)
+
 Этот чертёныш просто обалденен.
+
+![Этот чертёныш просто обалденен.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16950029480_1cafbc8c5c_b.jpg)
+
+![16951380329_b48617c4bf_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16951380329_b48617c4bf_b.jpg)
+
 Поплавать по каналам на лодочках - must do в Амстердаме. Но лучше выбрать время позднее, ночной Амстердам сияет совершенно новыми красками.
+
+![Поплавать по каналам на лодочках - must do в Амстердаме. Но лучше выбрать время ](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16949799188_e8ee1f8019_b.jpg)
+
 Научный центр Nemo. Выглядит очень по-научному.
+
+![Научный центр Nemo. Выглядит очень по-научному.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16950027700_a199417c86_b.jpg)
+
+![17111624066_18c9e7676c_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17111624066_18c9e7676c_b.jpg)
+
+![16950027140_37fb374fb0_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16950027140_37fb374fb0_b.jpg)
+
+![16950026320_316f9b04ab_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16950026320_316f9b04ab_b.jpg)
 
 А это - Wester Kerk - кальвинистская церковь. Считается церквью для богатых. Хотели зайти сюда, но, увы, она оказалась закрыта. В голландии более 60% населения - атеисты. У них цервки не самое популярное место.
 
+![А это - Wester Kerk - кальвинистская церковь. Считается церквью для богатых. Хот](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16951378489_9c931a6239_b.jpg)
+
+![17111621466_7c0ec0068e_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17111621466_7c0ec0068e_b.jpg)
+
 Ребята, если не знаете, где позавтракать в Амстердаме, едьте в кафе Omelegg . Уютная атмосфера и прекрасные яичницы вам обеспечены.
+
+![Ребята, если не знаете, где позавтракать в Амстердаме, едьте в кафе Omelegg . Ую](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16950005500_df49af2e53_b.jpg)
 
 Обратите внимания на яичницу, вытекающую по полу слева.
 
+![Обратите внимания на яичницу, вытекающую по полу слева.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17136924041_16f6d8507b_b.jpg)
+
 Организация на высшем уровне. Один парень делает хлеба, другой яичницу. Поток огромный.
+
+![Организация на высшем уровне. Один парень делает хлеба, другой яичницу. Поток ог](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16515140314_04315073f2_b.jpg)
+
+![16950023460_bbde3b59e8_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16950023460_bbde3b59e8_b.jpg)
+
+![17111619286_fa9248e963_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17111619286_fa9248e963_b.jpg)
+
+![17111618756_d8f43725ed_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17111618756_d8f43725ed_b.jpg)
+
 Ничего необычного, на первый взгляд. Но на вкус - великолепие.
+
+![Ничего необычного, на первый взгляд. Но на вкус - великолепие.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17136921351_35057de748_b.jpg)
+
 С шоппингом у нас сложно. Обычно мы заходим в магазин купить что-то Ксюше, но покупаем мне. Жена удобно расселась в кресле, поджидая меня из примерочной.
 
+![С шоппингом у нас сложно. Обычно мы заходим в магазин купить что-то Ксюше, но по](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16515137944_5103676719_b.jpg)
+
+![16515137694_bbf839179c_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16515137694_bbf839179c_b.jpg)
+
 Магазин вещей Magna. Красиво, но очень мало магазинов. Идти сюда не советуем.
+
+![Магазин вещей Magna. Красиво, но очень мало магазинов. Идти сюда не советуем.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17137558715_8e0ddc6f9f_b.jpg)
+
 Велосипеды, лодки и машины - вот основной транспорт в Амстердаме.
+
+![Велосипеды, лодки и машины - вот основной транспорт в Амстердаме.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17135993002_1e381db10e_b.jpg)
+
 А это - Bluemenmarkt , цветочный рынок. Интересное место и огромный выбор.
+
+![А это - Bluemenmarkt , цветочный рынок. Интересное место и огромный выбор.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17135989902_862da1e693_b.jpg)
+
+![А это - Bluemenmarkt , цветочный рынок. Интересное место и огромный выбор.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16930158817_ef274a4c62_b.jpg)
 
 Голландский сыр, к своему стыду, мы так и не опробовали.
 
+![Голландский сыр, к своему стыду, мы так и не опробовали.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16949787908_1996148062_b.jpg)
+
 Центральная станция . Вообще, пару слов про транспорт в Голландии. Он нас порадовал. Трамваи являеются основным общественным транспортом по городу. Внутри чисто, ходят по расписанию. Единственная глупость, это то, что билеты нужно прислонять не только когда заходишь в трамвай, а когда выходишь. Мол, платишь за количество остановок тогда. Я спросил "а я если на день купил билет?". Сказали всё равно прислонять нужно. Есть в этом что-то ритуальное.
 
+![Центральная станция . Вообще, пару слов про транспорт в Голландии. Он нас порадо](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16950016190_b7d2fd60ac_b.jpg)
+
 По рассказам гида, в среднем на человека в амстердаме приходится 1.3-1.5 велосипеда. Есть те, у кого по три штуки. Один - ехать от дома до станции, второй - ехать от станции до работы. Третий, чтобы щеголять по выходным. Такие красавцы могут стоить и 10 тысяч евро.
+
+![По рассказам гида, в среднем на человека в амстердаме приходится 1.3-1.5 велосип](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16951367159_5b3fee9fed_b.jpg)
+
 Как видим, на крышах зданий имеются крюки. Т.к. дома узкие, удобнее поднять шкаф или другой груз при помощи веревки и этого крюка, нежели тащить по лестнице.
+
+![Как видим, на крышах зданий имеются крюки. Т.к. дома узкие, удобнее поднять шкаф](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17111609716_31b018f9d4_b.jpg)
+
+![16949784018_c6f729a22b_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16949784018_c6f729a22b_b.jpg)
+
 Дом сомнительной красоты.
+
+![Дом сомнительной красоты.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17136912181_0a128b6ecc_b.jpg)
+
+![17135983072_bb9de3bec4_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17135983072_bb9de3bec4_b.jpg)
+
+![17111599446_19a98d1156_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17111599446_19a98d1156_b.jpg)
 
 Посетили мы и площадь музеев.
 
+![Посетили мы и площадь музеев.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16949782358_7da5919ebd_b.jpg)
+
 На ней мы нашли второй памятник I amsterdam. На этой фотке только феерверков не хватает, вылитый Дисней бы получился.
 
+![На ней мы нашли второй памятник I amsterdam. На этой фотке только феерверков не ](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16950011560_2322097004_b.jpg)
+
+![17135982012_f493bf1de8_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17135982012_f493bf1de8_b.jpg)
+
+![16515126884_32cd37f8b9_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16515126884_32cd37f8b9_b.jpg)
+
 Ночной амстердам, последняя прогулка. Идем по площади Дам. Всё время думал, что это домская площадь, а вот нет. "Дам" на голландском плотина. А название города изначально было Амстелдам - "Амстел" - река. То есть плотина на реке Амстел. Ну потом ребрендинг, то сё, и получился Амстердам.
+
+![Ночной амстердам, последняя прогулка. Идем по площади Дам. Всё время думал, что ](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17137546355_aa2ed6c35f_b.jpg)
+
+![Ночной амстердам, последняя прогулка. Идем по площади Дам. Всё время думал, что ](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16951360079_cc5e13a662_b.jpg)
+
+![Ночной амстердам, последняя прогулка. Идем по площади Дам. Всё время думал, что ](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17135979372_900e635bc8_b.jpg)
+
 Везде курят траву. Это норма. За тяжелые наркотики посадят без проблем, а травку кури, пожалуйста. Запах на каждой улице.
+
+![Везде курят траву. Это норма. За тяжелые наркотики посадят без проблем, а травку](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16949779108_b469e409a8_b.jpg)
+
+![16949778768_5390fd6993_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16949778768_5390fd6993_b.jpg)
+
+![16951358999_e28708c36d_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16951358999_e28708c36d_b.jpg)
+
 Куда без представительниц самой древней профессии. Девчонки многие красивые, особенно при красном освещении. Клиентура есть, регулярно замечали забегающих клиентов. Район красных фонарей делится по улицам с разными национальностями. Есть и словянская улицы и негритянские - возле старой церкви, по иронии находящейся прямо в центре квартала Красных Фонарей.
+
+![Куда без представительниц самой древней профессии. Девчонки многие красивые, осо](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16951358749_a6e83d82e6_b.jpg)
 
 Трава, трава, трава. И это-то на площади Рембранта.
 
+![Трава, трава, трава. И это-то на площади Рембранта.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17136906911_1889b17d11_b.jpg)
+
+![16930147517_3bab41a1aa_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16930147517_3bab41a1aa_b.jpg)
+
+![16949777478_61e9114b88_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16949777478_61e9114b88_b.jpg)
+
 Мы жили в отеле WestCord Fashion Hotel Amsterdam. Самый дешевый отель из 4-х звездочных. Завтрак не включен и такая ситуация почти во всех отелях. Доплачивать нужно 19 евро с человека. За такие деньги можно и в ресторан!
+
+![Мы жили в отеле WestCord Fashion Hotel Amsterdam. Самый дешевый отель из 4-х зве](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16950005990_6e45eb329f_b.jpg)
+
+![17137542965_cfd43fc503_b.jpg](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17137542965_cfd43fc503_b.jpg)
 
 Мы снова в Pompadour. Ксюша кушает шоколадный торт...
 
+![Мы снова в Pompadour. Ксюша кушает шоколадный торт...](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/17111601176_3c8a2987de_b.jpg)
+
 ... а я - лимонный с безе!
+
+![... а я - лимонный с безе!](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16951356719_134dbc6686_b.jpg)
 
 Хотите пропустить вкусную рюмашку? Найдите бар Wynand Fockink возле Дамской площади. Миллион разных вкусов, есть возможность предварительной дегустации, 3 евро за рюмку. Вкусно, но крепко. Пить лучше медленно, наслаждаясь.
 
+![Хотите пропустить вкусную рюмашку? Найдите бар Wynand Fockink возле Дамской площ](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16515122204_ceaa246757_b.jpg)
+
 Прощальная фотография. Приезжайте в Амстердам обязательно.
+
+![Прощальная фотография. Приезжайте в Амстердам обязательно.](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16930141807_e1812b4e5d_b.jpg)
+
 П.С. Возможно, вам будет также интересно прочитать наш другой фото-отчёт Греция, Крит !
--
