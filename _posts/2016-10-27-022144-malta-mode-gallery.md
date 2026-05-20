@@ -4,6 +4,7 @@ title: "Мальта, Гозо"
 date: 2016-10-27 00:00:00 +0000
 categories: travel
 slug: "malta-mode-gallery"
+published: false
 archive_url: "https://web.archive.org/web/20161027022144/http://www.zavalny.com:80/travel/malta?mode=gallery"
 original_url: "http://www.zavalny.com:80/travel/malta?mode=gallery"
 ---
