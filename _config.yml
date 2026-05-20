@@ -1,7 +1,7 @@
 title: Zavalny Travel Archive
 description: Восстановленный архив путешествий Александра Завального
-url: "https://alexzavalny.github.io"
-baseurl: "/zavalny_com"
+url: "https://zavalny.com"
+baseurl: ""
 lang: ru
 timezone: Europe/Riga
 permalink: /:categories/:year/:month/:day/:title/
