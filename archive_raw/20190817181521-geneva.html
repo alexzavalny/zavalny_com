@@ -1,0 +1,2810 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Швейцария | Сайт Александра Завального - про питание, спорт, путешествия и настольные игры</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="/assets/app-8fa0be5024cc1f580643f1bb9a14bb956fe1204a233c5c87f2330da3e43b3560.css">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">    
+
+   <meta property="og:site_name" content="Сайт Александра Завального - про питание, спорт, путешествия и настольные игры"/>
+    
+      <meta property="og:title" content="Швейцария | Александр Завальный"/>
+      <meta property="og:image" content="http://zavalny.com/img/covers/geneva.jpg"/>
+      <meta property="og:url" content="http://www.zavalny.com/travel/geneva"/>
+      <link rel="canonical" href="http://www.zavalny.com/travel/geneva" />
+      <meta property="og:description" content="4 дня путешествия вокруг озера Женевы"/>
+      <meta name="description" content="4 дня путешествия вокруг озера Женевы">
+    
+    <meta name="author" content="Александр Завальный">    
+  
+    <link href='//fonts.googleapis.com/css?family=Lobster|Roboto&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+    <meta name="google-site-verification" content="0UF26V-ZzTJWHBd9MFfQrsrRmZ2YyLyfM6FebmLVw5Q8" />
+
+    
+  </head>
+  <body>        
+
+          
+    <div id="background" style="background-image: url('//www.zavalny.com/img/covers/geneva.jpg');">
+    </div>
+  
+
+   <div class="breadcrumb-bar" vocab="http://schema.org/" typeof="BreadcrumbList">
+    <a href="/"><span class="glyphicon glyphicon-home" style="font-size: 22px;"></span></a>
+    
+        
+            / <div property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/travel"><span property="name">Путешествия</span></a></div>
+        
+    
+        
+            / <h1>Швейцария</h1>
+        
+    
+    
+    
+</div>
+  
+
+	 <script type="text/javascript">
+	var card_code = "geneva";
+</script>
+
+	
+		
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8"
+    ></script>
+<script>
+	function onPageLoad() {
+		var ndx = 0;
+		$("em").each(function(n, e) {
+			var placeInText = $(this);
+			placeInText.attr("data-place-ndx", ndx);			
+
+	        $("<a class='place' href='#' />").attr("data-toplace-ndx", ndx).text($(this).text()).appendTo($(".journal-places")).click(function () {
+	        	$('html, body').animate({
+			        scrollTop: $("em[data-place-ndx=" + $(this).attr("data-toplace-ndx") + "]").offset().top - 20
+			    }, 1000);
+	        })
+
+	        ndx ++;
+	    });	  
+
+		
+		
+	}
+	function initMap() {
+		mapp = new GMaps({
+	    	div: '#map',
+	    	styles: [{featureType:"administrative.land_parcel",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"landscape.man_made",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"poi",elementType:"labels",stylers:[{visibility:"off"}]},{featureType:"road",elementType:"labels",stylers:[{visibility:"off"},{lightness:20}]},{featureType:"road.highway",elementType:"geometry",stylers:[{visibility:"off"}]},{featureType:"road.arterial",elementType:"geometry",stylers:[{hue:"#fad959"}]},{featureType:"road.arterial",elementType:"labels",stylers:[{visibility:"off"}]},{featureType:"road.local",elementType:"geometry",stylers:[{visibility:"off"}]},{featureType:"road.local",elementType:"labels",stylers:[{visibility:"simplified"}]},{featureType:"transit",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"water",elementType:"all",stylers:[{hue:"#a1cdfc"},{saturation:30},{lightness:49}]}]
+		});
+
+		var goldStar = {
+           path: google.maps.SymbolPath.CIRCLE,            
+          fillColor: 'yellow',
+          fillOpacity: 0.7,
+          scale: 7,
+
+          strokeColor: 'tomato',
+          strokeOpacity: 0.9,
+          strokeWeight: 2
+        };
+
+		var bounds = new google.maps.LatLngBounds();
+		infowindow = new google.maps.InfoWindow({
+                content: "loading..."
+            });
+	
+	
+	marker = mapp.addMarker({ lat: 46.201533, lng:  6.128327, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.201533,  6.128327));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/37166514411_0293a19473_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.200125, lng:  6.120236, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.200125,  6.120236));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36217953732_c9757dd091_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.199844, lng:  6.125233, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.199844,  6.125233));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577806393_d445f52837_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.201419, lng:  6.112408, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.201419,  6.112408));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989383410_d292a45774_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.199811, lng:  6.121755, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.199811,  6.121755));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577805673_a43f5faa13_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.506133, lng:  6.628983, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.506133,  6.628983));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989372840_6d5b116d81_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.506222, lng:  6.628080, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.506222,  6.628080));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989375060_b765e25a03_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.505836, lng:  6.629238, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.505836,  6.629238));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989373540_4cf478f745_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.506705, lng:  6.627727, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.506705,  6.627727));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989371560_dffcec6bb7_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.506705, lng:  6.627713, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.506705,  6.627713));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989370980_72fdd43da2_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.478222, lng:  6.788216, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.478222,  6.788216));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36495752773_97d597fa41_h.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.476555, lng:  6.786794, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.476555,  6.786794));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36217941272_3570021e66_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.476680, lng:  6.785805, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.476680,  6.785805));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249170441_54f5d71e17_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.476402, lng:  6.786866, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.476402,  6.786866));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249169151_c018b0ffe8_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.412508, lng:  6.926061, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.412508,  6.926061));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550284804_ac6770ffa7_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.412855, lng:  6.929213, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.412855,  6.929213));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249236931_462d69f8ce_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.413702, lng:  6.928730, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.413702,  6.928730));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249237761_e11ce3e840_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.414555, lng:  6.926805, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.414555,  6.926805));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249163781_7255c5fe4c_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.586491, lng:  7.080930, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.586491,  7.080930));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249234761_c27dc48f15_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.585013, lng:  7.078027, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.585013,  7.078027));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249233801_16c2cbf760_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.581197, lng:  7.078297, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.581197,  7.078297));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249231941_2087400214_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.580816, lng:  7.076272, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.580816,  7.076272));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341343396_5b023986ca_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.580827, lng:  7.076469, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.580827,  7.076469));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385948235_a10d217bd8_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.580705, lng:  7.076366, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.580705,  7.076366));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385947455_b8af1f32e3_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.580919, lng:  7.076797, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.580919,  7.076797));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385945585_e078f6dbd5_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.588236, lng:  7.081441, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.588236,  7.081441));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550283064_45bc6cfdc3_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.586313, lng:  7.082947, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.586313,  7.082947));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550280914_fae66eab1b_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.588827, lng:  7.080963, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.588827,  7.080963));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249154971_e441887028_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.900324, lng:  6.131472, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.900324,  6.131472));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989426200_d13a41b4fd_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.900091, lng:  6.131811, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.900091,  6.131811));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550341124_01663380f3_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.900180, lng:  6.131377, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.900180,  6.131377));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550341884_c90ec5d1b6_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.900194, lng:  6.131352, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.900194,  6.131352));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989425920_b28d8710e3_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.899311, lng:  6.132622, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.899311,  6.132622));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550338354_43c4ac10b7_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.899305, lng:  6.132605, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.899305,  6.132605));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385934415_266ebc220e_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.898686, lng:  6.132238, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.898686,  6.132238));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341322666_ac00159150_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.898577, lng:  6.127941, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.898577,  6.127941));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577832093_dc204327b4_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.898994, lng:  6.125197, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.898994,  6.125197));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385930025_ba3af297a6_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.898936, lng:  6.125161, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.898936,  6.125161));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341320266_6f77c467c2_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.898977, lng:  6.123997, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.898977,  6.123997));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249209301_c88f255c00_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.898886, lng:  6.123658, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.898886,  6.123658));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249208401_a8f59936aa_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.895997, lng:  6.038013, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.895997,  6.038013));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36509079593_3236ac352d_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.895997, lng:  6.038013, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.895997,  6.038013));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36471829404_6ed5e1e10a_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.896069, lng:  6.036841, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.896069,  6.036841));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36471827734_73b48bc371_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.101097, lng:  6.348861, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.101097,  6.348861));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36217983012_828cdb7481_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.076330, lng:  6.373033, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.076330,  6.373033));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36217912202_02078bde38_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.915866, lng:  6.857111, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.915866,  6.857111));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36218061982_c4c25b648e_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.897663, lng:  6.811088, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.897663,  6.811088));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385918155_11ae2e4d16_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 45.915866, lng:  6.857111, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(45.915866,  6.857111));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577816703_21e41b9d16_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.004566, lng:  6.924238, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.004566,  6.924238));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341301776_12ede61092_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.057122, lng:  7.000947, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.057122,  7.000947));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385916945_95cf5a994e_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.057102, lng:  7.000894, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.057102,  7.000894));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385915985_52e3b25a3f_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.057133, lng:  7.000913, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.057133,  7.000913));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385916565_b9f7264efa_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.057086, lng:  7.000794, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.057086,  7.000794));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385915495_1431f49cc4_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.057177, lng:  7.000955, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.057177,  7.000955));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341296326_bf0fc9d11f_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.057022, lng:  7.000966, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.057022,  7.000966));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341292036_d9f60a3223_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.057652, lng:  7.001202, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.057652,  7.001202));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385913055_b67349de92_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.075463, lng:  7.021152, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.075463,  7.021152));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385912415_c53ec805c1_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.075763, lng:  7.020838, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.075763,  7.020838));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341283266_3ed05ddd00_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.075694, lng:  7.020780, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.075694,  7.020780));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341281616_bbcd7ee2a0_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.075647, lng:  7.020952, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.075647,  7.020952));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341285666_77cee1384d_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 46.075680, lng:  7.021011, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(46.075680,  7.021011));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385911845_df967a83bb_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+			
+	mapp.map.fitBounds(bounds);
+
+	}
+	
+</script>
+
+
+<div class="modal fade modal-gift">
+	<div class="modal-dialog">
+		<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title">Получить подарочек</h4>
+			</div>
+			<div class="modal-body">
+				<p>Похоже вы очень внимательный читатель. Заполните форму, и, если только вас уже не обошли, за это я с вами свяжусь и передам подарочек из этой поездки! Количество подарочков очень ограничено.<p>
+				<p><b>Имя</b>: <input type="text" class="name"></p>
+				<p><b>Email</b>: <input type="text" class="email"></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+				<button type="button" class="btn btn-primary gift-button">Хочу подарок!</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="container journal">	
+	<div class="left-panel xpanel"></div>
+	<div class="right-panel xpanel"></div>
+
+	<img class="journal-header-photo" src="//www.zavalny.com/img/covers/geneva.jpg">
+	
+	
+    <button class="btn btn-default" onclick="$('#map').show();initMap()" style="margin-bottom:20px">Показать карту</button>
+    <div id="map" style="height: 500px; display: none;"></div>
+    
+
+	
+
+	
+	<div class="journal-places"></div>
+	
+	
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					Есть поездки, когда место классное и сама поездка получается классной (Гонконг). Есть поездки, когда место так себе, а поездка супер (Нью-Йорк).
+А есть поездки, когда место просто шикарное, но поездочка вышла не очень. Добро пожаловать в мой отчёт о нашей поездке в Швейцарию.
+<br><br>
+В этот раз мы поехали с нашими прекрасными друзьями Ефимовыми. А с погодой нам не повезло. Но об этом позже.
+<br><br>
+Приехали мы значит в Женеву. На этой фотографии изображена главная и единственная достопримечательность Женевы - фонтан. Сказать, что мы были поражены его красотой и величием – это соврать.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385990695_92c5343773_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385990695_92c5343773_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550408694_12b29acabf_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550408694_12b29acabf_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577919443_778d24c38b_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577919443_778d24c38b_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989465220_9c7fc53fe4_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989465220_9c7fc53fe4_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249262791_4eaaac5117_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249262791_4eaaac5117_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				Так как мы были на машине, первым делом приехали на парковку. Парковки тут вызывают нереальную зависть у нас, рижан. В Риге припарковаться в городе становится все сложнее, а в Женеве парковки, кажется, бесконечно углубляются к ядру земли.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3043" style="max-width: px;">					
+			
+			
+			<div class="images group" style="padding-bottom: 66.69921875%">
+				
+
+				
+						<div class="arrow left glyphicon"><div class="left-arrow-content"></div></div>
+						<div class="arrow right glyphicon"><div class="right-arrow-content"></div></div>
+				
+
+				<img id="photo_3043" data-photo-id="3043" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989468170_1bac203f9a_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989468170_1bac203f9a_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+					
+						
+						
+						<img data-width="1024" data-height="683" id="photo_3044" data-photo-id="3044" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36218062752_6c4eb08156_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36218062752_6c4eb08156_b.jpg" class="lazy " data-action="zoom" />
+									
+				
+			</div>
+
+			
+				<div class="thumbnails">
+										
+					<div id="thumb_3043" data-photo-id="3043" class="dot current"></div>
+										
+					<div id="thumb_3044" data-photo-id="3044" class="dot"></div>
+								
+				</div>
+			
+
+
+				 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					Архитектура Женевы невероятно скучна и безлика. Особые знатоки истории возможно углядят в ней что-то эдакое, мол "вон же дом из того-то века", ну вы знаете. Я оцениваю города даже не по красоте, а по уюту. Женева — не самый уютный город. Особенно не понравился асфальт вместо брусчатки на некоторых улицах старого города. Вообще не серьезно.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385983605_28cd109cd9_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385983605_28cd109cd9_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385984015_b949147575_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385984015_b949147575_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Густая троллейбусная контактная сеть.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/37166514411_0293a19473_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/37166514411_0293a19473_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385983055_8a81a54a3c_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385983055_8a81a54a3c_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Куда бы мы не пошли, почти в каждом кафе мы встречали посетителей с собаками. Всех не перефоткать. Раз уж заговорили о собаках, пара-тройка интересных фактов про них: <br><br>
+<ol>
+<li>В Женеве нахождение на поводке и в наморднике в общественных местах является обязательным требованием для всех собак. </li>
+<li>Регистрация собак и ежегодный налог были обязательны в течение многих десятилетий. Каждый кантон (регион) устанавливает порог для налогообложения (диапазоны 24.7 – 247 Евро), причем этот налог непропорционально растет с увеличением числа собак, которых содержит владелец. Эта система карательного налогообложения разработана, чтобы уменьшить желание граждан иметь более чем одну собаку. Нам бы такое.</li>
+<li>С 2007 года для всех собак в Швейцарии обязательно микрочипирование. </li>
+</ol>
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36218049782_3937e8f7e0_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36218049782_3937e8f7e0_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36218049122_919a58346b_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36218049122_919a58346b_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					За городом есть шанс увидеть довольно редкое явление - <em data-place-ndx="0">слияние двух рек Рона и Арв</em> разных цветов. Стрелка, где соединяются потоки, представляет собой соединение контрастных оттенков двух горных рек. Цвет Роны, берущей своё начало на склонах массива Аар-Готарди и вытекающей из Женевского озера более бирюзовый. Река Арв, исток которой находится в Грайских Альпах, более серая и мутная.
+<br/><br/>
+К сожалению, вид с берега так себе, а на мост почему-то вход был закрыт.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989458090_3cb534f22d_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989458090_3cb534f22d_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989457570_245d126dc8_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989457570_245d126dc8_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				Поэтому с Серёгой запустили дрон (Mavic), чтобы хоть через экран увидеть всю красоту.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3067" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3067" data-photo-id="3067" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385980965_f0df299e82_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385980965_f0df299e82_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				Сверху, конечно, всё видно совсем по-другому. Слева - Рона, справа - Арв.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3219" style="max-width: px;">					
+			
+			
+			<div class="images group" style="padding-bottom: 75.0%">
+				
+
+				
+						<div class="arrow left glyphicon"><div class="left-arrow-content"></div></div>
+						<div class="arrow right glyphicon"><div class="right-arrow-content"></div></div>
+				
+
+				<img id="photo_3219" data-photo-id="3219" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36217953732_c9757dd091_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36217953732_c9757dd091_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+					
+						
+						
+						<img data-width="1024" data-height="768" id="photo_3209" data-photo-id="3209" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577806393_d445f52837_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577806393_d445f52837_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="768" id="photo_3222" data-photo-id="3222" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989383410_d292a45774_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989383410_d292a45774_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="768" id="photo_3210" data-photo-id="3210" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577805673_a43f5faa13_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577805673_a43f5faa13_b.jpg" class="lazy " data-action="zoom" />
+									
+				
+			</div>
+
+			
+				<div class="thumbnails">
+										
+					<div id="thumb_3219" data-photo-id="3219" class="dot current"></div>
+										
+					<div id="thumb_3209" data-photo-id="3209" class="dot"></div>
+										
+					<div id="thumb_3222" data-photo-id="3222" class="dot"></div>
+										
+					<div id="thumb_3210" data-photo-id="3210" class="dot"></div>
+								
+				</div>
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=46.200125, 6.120236&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				Больше в Женеве делать было нечего, поэтому на следующий день мы начали наше исследование мест вокруг Женевского озера. Проехав более половины озера по его северной стороне мы очутились в городе <em data-place-ndx="1">Лозанна</em>. Лозанна — довольно большой город, не даром она — столица франкоязычного кантона Во. Кстати, про кантоны.
+<br><br>
+Кантоны — это бывшие небольшие государства, которые объединились в 1848 году. Каждый кантон имеет свою собственную конституцию, парламент, правительство и судебную систему. Вот как выглядит их разделение. Собственно, внизу слева и есть кантон "VD" с Лозанной и озером.
+<br><br>
+<img class="img-responsive" src="/img/articles/geneva/cantons.png">
+<br><br> 
+Возвращаясь к Лозанне, мы были только на набережной, и она потрясающая. Проезжая вдоль озера, сюда определенно стоит заскочить.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3070" style="max-width: px;">					
+			
+			
+			<div class="images group" style="padding-bottom: 66.69921875%">
+				
+
+				
+						<div class="arrow left glyphicon"><div class="left-arrow-content"></div></div>
+						<div class="arrow right glyphicon"><div class="right-arrow-content"></div></div>
+				
+
+				<img id="photo_3070" data-photo-id="3070" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36218048442_a596ab7dd7_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36218048442_a596ab7dd7_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+					
+						
+						
+						<img data-width="1024" data-height="683" id="photo_3071" data-photo-id="3071" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577903543_cda1bba4cd_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577903543_cda1bba4cd_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="683" id="photo_3073" data-photo-id="3073" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550396684_7be172643a_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550396684_7be172643a_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="683" id="photo_3074" data-photo-id="3074" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550396414_7781679570_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550396414_7781679570_b.jpg" class="lazy " data-action="zoom" />
+									
+				
+			</div>
+
+			
+				<div class="thumbnails">
+										
+					<div id="thumb_3070" data-photo-id="3070" class="dot current"></div>
+										
+					<div id="thumb_3071" data-photo-id="3071" class="dot"></div>
+										
+					<div id="thumb_3073" data-photo-id="3073" class="dot"></div>
+										
+					<div id="thumb_3074" data-photo-id="3074" class="dot"></div>
+								
+				</div>
+			
+
+
+				 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550396104_48e05153f0_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550396104_48e05153f0_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989453290_6f62d889a4_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989453290_6f62d889a4_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550394824_9fc08545ee_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550394824_9fc08545ee_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550394194_c88d322baf_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550394194_c88d322baf_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36218041902_f3f1365b23_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36218041902_f3f1365b23_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550393474_65a23888ea_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550393474_65a23888ea_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550389454_26ec570284_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550389454_26ec570284_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577894783_466e2ee0f2_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577894783_466e2ee0f2_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3088" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3088" data-photo-id="3088" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550388904_ed2f9ac9a4_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550388904_ed2f9ac9a4_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				Ну и сверху - 
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3236" style="max-width: px;">					
+			
+			
+			<div class="images group" style="padding-bottom: 74.90234375%">
+				
+
+				
+						<div class="arrow left glyphicon"><div class="left-arrow-content"></div></div>
+						<div class="arrow right glyphicon"><div class="right-arrow-content"></div></div>
+				
+
+				<img id="photo_3236" data-photo-id="3236" data-width="1024" data-height="767" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989372840_6d5b116d81_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989372840_6d5b116d81_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+					
+						
+						
+						<img data-width="1024" data-height="767" id="photo_3233" data-photo-id="3233" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989375060_b765e25a03_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989375060_b765e25a03_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="767" id="photo_3235" data-photo-id="3235" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989373540_4cf478f745_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989373540_4cf478f745_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="767" id="photo_3237" data-photo-id="3237" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989371560_dffcec6bb7_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989371560_dffcec6bb7_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="767" id="photo_3238" data-photo-id="3238" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989370980_72fdd43da2_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989370980_72fdd43da2_b.jpg" class="lazy " data-action="zoom" />
+									
+				
+			</div>
+
+			
+				<div class="thumbnails">
+										
+					<div id="thumb_3236" data-photo-id="3236" class="dot current"></div>
+										
+					<div id="thumb_3233" data-photo-id="3233" class="dot"></div>
+										
+					<div id="thumb_3235" data-photo-id="3235" class="dot"></div>
+										
+					<div id="thumb_3237" data-photo-id="3237" class="dot"></div>
+										
+					<div id="thumb_3238" data-photo-id="3238" class="dot"></div>
+								
+				</div>
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=46.506133, 6.628983&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					В целом отчёт о Швейцарии писать трудно, так как основной кайф там получаешь именно от красот, на которые всё время смотришь и всё время делаешь фотографии, которые потом оказываются примерно одинаковыми. 
+<br/><br/>
+Не припомню, чтобы так тянуло останавливаться на каждому углу. Но ощущения там действительно были неописуемые.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550386064_e2f0726639_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550386064_e2f0726639_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550385574_bd706d7764_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550385574_bd706d7764_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550385294_92c7937176_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550385294_92c7937176_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550384824_03b176e2df_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550384824_03b176e2df_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				А вот и <em data-place-ndx="2">виноградники Лаво</em>. Одна из самых знаменитых винных дорог Швейцарии – это виноградники Лаво между городами Лозанной и Монтре. Виноградники Лаво входят в список достопримечательностей Женевского озера, так как расположены вдоль его побережья, и знамениты еще и тем, что в 2007 году их включили в список объектов ЮНЕСКО.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper hero" data-id="3293" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 39.0625%">
+				
+
+				
+
+				<img id="photo_3293" data-photo-id="3293" data-width="1024" data-height="400" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36495752773_97d597fa41_h.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36495752773_97d597fa41_h.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=46.478222, 6.788216&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				Виноградники Лаво простираются на 30 км, занимают довольно обширную территорию и пролегают через 15 городков Швейцарии. Заехать наверх непросто, дороги узкие. Если кто едет навстречу, разъехаться крайне тяжело. 
+<br/>Наверху красивый вид и отличное место для прогулки. Гуляя по виноградникам можно наткнуться на множество мелких магазинов и забегаловок, где имеется возможность продегустировать винчик.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3241" style="max-width: px;">					
+			
+			
+			<div class="images group" style="padding-bottom: 74.90234375%">
+				
+
+				
+						<div class="arrow left glyphicon"><div class="left-arrow-content"></div></div>
+						<div class="arrow right glyphicon"><div class="right-arrow-content"></div></div>
+				
+
+				<img id="photo_3241" data-photo-id="3241" data-width="1024" data-height="767" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36217941272_3570021e66_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36217941272_3570021e66_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+					
+						
+						
+						<img data-width="1024" data-height="767" id="photo_3098" data-photo-id="3098" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577879263_5134bbc979_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577879263_5134bbc979_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="767" id="photo_3239" data-photo-id="3239" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249170441_54f5d71e17_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249170441_54f5d71e17_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="767" id="photo_3242" data-photo-id="3242" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249169151_c018b0ffe8_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249169151_c018b0ffe8_b.jpg" class="lazy " data-action="zoom" />
+									
+				
+			</div>
+
+			
+				<div class="thumbnails">
+										
+					<div id="thumb_3241" data-photo-id="3241" class="dot current"></div>
+										
+					<div id="thumb_3098" data-photo-id="3098" class="dot"></div>
+										
+					<div id="thumb_3239" data-photo-id="3239" class="dot"></div>
+										
+					<div id="thumb_3242" data-photo-id="3242" class="dot"></div>
+								
+				</div>
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=46.476555, 6.786794&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989447110_9965af1869_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989447110_9965af1869_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577856803_a28e74116d_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577856803_a28e74116d_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				Двигаясь дальше по озеру, доехав до самой правой его стороны, мы оказались возле популярной достопримечательности "<em data-place-ndx="3">Шильонский замок</em>". Больше всего запомнилось то, что это был единственный раз за поездку, где охранник попросил перестать снимать с дрона. А я всё щёлкал и щёлкал, даже пока летел назад. 
+<br><br>
+Ничего интересного про замок рассказать не могу, он вроде был одно время тюрьмой. Приехали мы сюда исключительно ради вида замка у озера, но не могу сказать, что оно того стоит. Только, если вы очень любите замки.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3249" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 74.90234375%">
+				
+
+				
+
+				<img id="photo_3249" data-photo-id="3249" data-width="1024" data-height="767" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550284804_ac6770ffa7_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550284804_ac6770ffa7_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=46.412508, 6.926061&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249236931_462d69f8ce_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249236931_462d69f8ce_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249237761_e11ce3e840_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249237761_e11ce3e840_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3248" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 74.90234375%">
+				
+
+				
+
+				<img id="photo_3248" data-photo-id="3248" data-width="1024" data-height="767" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249163781_7255c5fe4c_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249163781_7255c5fe4c_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=46.414555, 6.926805&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				<em data-place-ndx="3">Швейцарские коровы</em>. <br>
+Разумеется, нельзя посетить Швейцарию не посмотрев на знаменитых швейцарских коров. У нас были крайне завышенные требования и фантазии по этому поводу — мы рисовали в голове красивых оранжево-белых коровок, бегающих по травке на фоне гор. Нам так хотелось это увидеть, что возвращаясь домой по верху женевского озера, мы резко завернули в случайном направлении, поднялись высоко в горы, припарковались и пошли искать коров. 
+<br><br>
+К сожалению, найдя одно стадо возле хлева, мы были разочарованы. Хлев, мухи, несимпатичные коровки — всё как-то обыденно и приземлённо. Лишь одну корову мы увидели на горе, но она была одинока и поспешила покинуть это место, чуя неладное.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3128" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3128" data-photo-id="3128" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249234761_c27dc48f15_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249234761_c27dc48f15_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=46.586491, 7.080930&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249233801_16c2cbf760_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249233801_16c2cbf760_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249231941_2087400214_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249231941_2087400214_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Но мы не сдавались. Надежда принципиально отказывалась возвращаться в отель не увидев настоящую коровью красоту. Мы решили сделать еще одну попытку и побежали на звон колокольчиков. Выбежав на поляну, радости не было предела. Мы сделали тонну фотографий и даже записали звуки этого места, чтобы навсегда запечатлеть этот момент:
+<br>
+<audio controls="" style="">
+  <source src="//www.zavalny.com/sounds/geneva/cows.m4a" type="audio/mp4">
+</audio>
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341343396_5b023986ca_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341343396_5b023986ca_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385948235_a10d217bd8_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385948235_a10d217bd8_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385947455_b8af1f32e3_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385947455_b8af1f32e3_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385945585_e078f6dbd5_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385945585_e078f6dbd5_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				А вот какой замок на нас действительно произвёл впечатление, так это замок <em data-place-ndx="4">Замок Грюйер</em>. Наткнулись мы на него случайно в погоне за коровами. Выглядит волшебно.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3250" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 74.90234375%">
+				
+
+				
+
+				<img id="photo_3250" data-photo-id="3250" data-width="1024" data-height="767" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550283064_45bc6cfdc3_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550283064_45bc6cfdc3_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=46.588236, 7.081441&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3350717079530638">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 74.90234375%">						
+							<img class="lazy" style="position: absolute" width="1024" height="767" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550280914_fae66eab1b_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550280914_fae66eab1b_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3350717079530638">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 74.90234375%">						
+							<img class="lazy" style="position: absolute" width="1024" height="767" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249154971_e441887028_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249154971_e441887028_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					<h2>Анси, Франция</h2>
+А вот мы вам и обманули. Отчёт называется "Швейцария", а мы поехали во Францию. Всё дело в том, что утром следующего дня мы за окном увидели крайне печальную картину. Открыв карту осадков стало ясно, что дождь нас окружил, но меньше всего его было внизу, во Франции. Поискав в интернете, что можно посетить поблизости, мы нашли <em data-place-ndx="6">город Анси</em>, туда и отправились. 
+<br/><br/>
+Дождь и туман полностью меняют то, как ты чувствуешь себя этих горных краях.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989426200_d13a41b4fd_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989426200_d13a41b4fd_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550341124_01663380f3_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550341124_01663380f3_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3149" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3149" data-photo-id="3149" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550341884_c90ec5d1b6_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550341884_c90ec5d1b6_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=45.900180, 6.131377&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3148" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3148" data-photo-id="3148" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989425920_b28d8710e3_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35989425920_b28d8710e3_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=45.900194, 6.131352&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550338354_43c4ac10b7_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35550338354_43c4ac10b7_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385934415_266ebc220e_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385934415_266ebc220e_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3157" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3157" data-photo-id="3157" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341322666_ac00159150_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341322666_ac00159150_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=45.898686, 6.132238&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					Анси — очень уютный город, чем-то напомнил Брюгге в Бельгии. Особый шарм придаёт ему канал "Тиу", протекающий через весь город, и маленькие мостики, по которым можно переходить его. Любой город становится самым уютным, если в нём есть каналы. Уверен, в солнечную погоду тут очень атмосферно, и если мы когда-нибудь будем планировать поездку по Франции, то сюда еще вернёмся.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577832093_dc204327b4_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577832093_dc204327b4_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385930025_ba3af297a6_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385930025_ba3af297a6_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341320266_6f77c467c2_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341320266_6f77c467c2_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249209301_c88f255c00_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249209301_c88f255c00_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249208401_a8f59936aa_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36249208401_a8f59936aa_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				Погода продолжала быть дождивой, но мы решили хоть каким-то разнообразием скрасить день и поехали погулять в <a href="https://www.gorgesdufier.com/en/visit.html">Gorges du Fier</a> — подвесные тропы в ущелье реки Фир, в 10 км от города Анси. По фоткам не вышло передать высоту и стрёмность всего этого процесса. Особо некомфортно гулять по мокрым скользким ступенькам — не верьте первой фотографии, её я позаимствовал с официального сайта, а остальные уже наши. В хорошую погоду, оказавшись возле Анси, это место действительно стоит посетить. Цена вопроса — 5,70€.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3297" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.50390625%">
+				
+
+				
+
+				<img id="photo_3297" data-photo-id="3297" data-width="1024" data-height="681" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36509079593_3236ac352d_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36509079593_3236ac352d_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=45.895997, 6.038013&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36471829404_6ed5e1e10a_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36471829404_6ed5e1e10a_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36471827734_73b48bc371_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36471827734_73b48bc371_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36495751683_bfe0c1e4b8_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36495751683_bfe0c1e4b8_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					На следующий день погода была лучше. Дождя почти не было, но и солнца, правда, мы не видели. Катаясь по окрестностям, мы увидели стадо коров. И со скуки решили полетать над ними на дроне. И я представить не мог, что огромные, сильные коровы будут от него убегать, если опуститься достаточно низко. Дрон-постух получился.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36217983012_828cdb7481_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36217983012_828cdb7481_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3350717079530638">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 74.90234375%">						
+							<img class="lazy" style="position: absolute" width="1024" height="767" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36217912202_02078bde38_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36217912202_02078bde38_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Последний день настроение было горное, поэтому мы просто смотрели на горы и бегали по горами. Заехали вот посмотреть на <em data-place-ndx="7">Монблан</em> в горном курорте Шамони, самую высокую гору Альп, и на её ледники.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36218061982_c4c25b648e_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36218061982_c4c25b648e_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385918155_11ae2e4d16_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385918155_11ae2e4d16_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3188" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3188" data-photo-id="3188" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577816703_21e41b9d16_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/35577816703_21e41b9d16_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=45.915866, 6.857111&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				И потом, по пути назад в Швейцарию из Франции, снова остановились на случайной дороге, чтобы насладиться атмосферой гор.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3189" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3189" data-photo-id="3189" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341301776_12ede61092_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341301776_12ede61092_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=46.004566, 6.924238&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385916945_95cf5a994e_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385916945_95cf5a994e_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385915985_52e3b25a3f_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385915985_52e3b25a3f_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385916565_b9f7264efa_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385916565_b9f7264efa_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385915495_1431f49cc4_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385915495_1431f49cc4_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341296326_bf0fc9d11f_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341296326_bf0fc9d11f_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341292036_d9f60a3223_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341292036_d9f60a3223_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385913055_b67349de92_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385913055_b67349de92_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				Ну и въехав в Швейцарию парканулись на полянке, чтобы посмотреть на вид с горы "Mont de l'Arpille".
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3202" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3202" data-photo-id="3202" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385912415_c53ec805c1_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385912415_c53ec805c1_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=46.075463, 7.021152&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				Швейцария — волшебная страна и это настоящая удача посетить её в прекрасную погоду. Приехав сюда, когда солнечно, вы будете как дети бегать по горкам, фотографировать каждую полянку и каждый вид на скалы, и повторять "как же здесь красиво". А когда затянет небо и пойдет дождь, вы будете с грустью пересматривать эти фотографии и ностальгировать. К сожалению, лишь один прекрасный солнечный день нам достался за нашу 4-х дневную поездку, поэтому лично я вернулся домой не успев насытиться красотой Швейцарии, ну что я врать буду.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3207" style="max-width: px;">					
+			
+			
+			<div class="images group" style="padding-bottom: 66.69921875%">
+				
+
+				
+						<div class="arrow left glyphicon"><div class="left-arrow-content"></div></div>
+						<div class="arrow right glyphicon"><div class="right-arrow-content"></div></div>
+				
+
+				<img id="photo_3207" data-photo-id="3207" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341283266_3ed05ddd00_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341283266_3ed05ddd00_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+					
+						
+						
+						<img data-width="1024" data-height="683" id="photo_3208" data-photo-id="3208" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341281616_bbcd7ee2a0_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341281616_bbcd7ee2a0_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="683" id="photo_3205" data-photo-id="3205" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341285666_77cee1384d_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36341285666_77cee1384d_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="683" id="photo_3203" data-photo-id="3203" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385911845_df967a83bb_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/geneva/36385911845_df967a83bb_b.jpg" class="lazy " data-action="zoom" />
+									
+				
+			</div>
+
+			
+				<div class="thumbnails">
+										
+					<div id="thumb_3207" data-photo-id="3207" class="dot current"></div>
+										
+					<div id="thumb_3208" data-photo-id="3208" class="dot"></div>
+										
+					<div id="thumb_3205" data-photo-id="3205" class="dot"></div>
+										
+					<div id="thumb_3203" data-photo-id="3203" class="dot"></div>
+								
+				</div>
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=46.075763, 7.020838&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				<h2>Видео клип</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_R0v9fQQHYY" frameborder="0" allowfullscreen></iframe>
+			</div>
+			
+		
+		
+		
+		
+		
+	
+
+	<div class="post-scriptum">
+		
+
+		<div class="journal_photo">			
+			<div class="journal_photo_description">
+				П.С. Возможно, вам будет также интересно прочитать наш другой фото-отчёт <a href="/travel/mandala-hotel">Отель Mandala в Берлине</a>!
+			</div>			
+			
+			<a href="/travel/mandala-hotel"><img src="/img/covers/mandala-hotel.jpg" class="img-responsive" /></a>			
+		</div>			
+	</div>	
+
+	<div id="disqus_thread"></div>
+<script>
+	var disqus_config = function () {
+	    this.page.url = 'http://www.zavalny.com/travel/geneva'; 
+	    this.page.identifier = 'geneva';
+	};
+
+	window.onload = function() {
+		(function() { // DON'T EDIT BELOW THIS LINE
+		    var d = document, s = d.createElement('script');
+		    s.src = '//zavalny.disqus.com/embed.js';
+		    s.setAttribute('data-timestamp', +new Date());
+		    (d.head || d.body).appendChild(s);
+		})();
+	};
+</script>
+</div>	
+	
+
+
+      
+     <script src="/assets/app-2fd58e8c6960cbfaa0aeae3cb276fd8b21fa9355d8de32f7799b29af0b63996f.js" async></script>
+
+    
+
+    <script id="dsq-count-scr" src="//zavalny.disqus.com/count.js" async></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62303886-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </body>
+</html>

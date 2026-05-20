@@ -1,0 +1,20 @@
+title: Zavalny Travel Archive
+description: Восстановленный архив путешествий Александра Завального
+url: "https://alexzavalny.github.io"
+baseurl: "/zavalny_com"
+lang: ru
+timezone: Europe/Riga
+permalink: /:categories/:year/:month/:day/:title/
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+collections:
+  posts:
+    output: true
+exclude:
+  - scripts/
+  - archive_raw/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

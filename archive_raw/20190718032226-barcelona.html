@@ -1,0 +1,2479 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Барселона | Сайт Александра Завального - про питание, спорт, путешествия и настольные игры</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="/assets/app-8fa0be5024cc1f580643f1bb9a14bb956fe1204a233c5c87f2330da3e43b3560.css">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">    
+
+   <meta property="og:site_name" content="Сайт Александра Завального - про питание, спорт, путешествия и настольные игры"/>
+    
+      <meta property="og:title" content="Барселона | Александр Завальный"/>
+      <meta property="og:image" content="http://zavalny.com/img/covers/barcelona.jpg"/>
+      <meta property="og:url" content="http://www.zavalny.com/travel/barcelona"/>
+      <link rel="canonical" href="http://www.zavalny.com/travel/barcelona" />
+      <meta property="og:description" content="Барселона нам понравились даже больше, чем Берлин!"/>
+      <meta name="description" content="Барселона нам понравились даже больше, чем Берлин!">
+    
+    <meta name="author" content="Александр Завальный">    
+  
+    <link href='//fonts.googleapis.com/css?family=Lobster|Roboto&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+    <meta name="google-site-verification" content="0UF26V-ZzTJWHBd9MFfQrsrRmZ2YyLyfM6FebmLVw5Q8" />
+
+    
+  </head>
+  <body>        
+
+          
+    <div id="background" style="background-image: url('//www.zavalny.com/img/covers/barcelona.jpg');">
+    </div>
+  
+
+   <div class="breadcrumb-bar" vocab="http://schema.org/" typeof="BreadcrumbList">
+    <a href="/"><span class="glyphicon glyphicon-home" style="font-size: 22px;"></span></a>
+    
+        
+            / <div property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/travel"><span property="name">Путешествия</span></a></div>
+        
+    
+        
+            / <h1>Барселона</h1>
+        
+    
+    
+    
+</div>
+  
+
+	 <script type="text/javascript">
+	var card_code = "barcelona";
+</script>
+
+	
+		
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8"
+    ></script>
+<script>
+	function onPageLoad() {
+		var ndx = 0;
+		$("em").each(function(n, e) {
+			var placeInText = $(this);
+			placeInText.attr("data-place-ndx", ndx);			
+
+	        $("<a class='place' href='#' />").attr("data-toplace-ndx", ndx).text($(this).text()).appendTo($(".journal-places")).click(function () {
+	        	$('html, body').animate({
+			        scrollTop: $("em[data-place-ndx=" + $(this).attr("data-toplace-ndx") + "]").offset().top - 20
+			    }, 1000);
+	        })
+
+	        ndx ++;
+	    });	  
+
+		
+		
+	}
+	function initMap() {
+		mapp = new GMaps({
+	    	div: '#map',
+	    	styles: [{featureType:"administrative.land_parcel",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"landscape.man_made",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"poi",elementType:"labels",stylers:[{visibility:"off"}]},{featureType:"road",elementType:"labels",stylers:[{visibility:"off"},{lightness:20}]},{featureType:"road.highway",elementType:"geometry",stylers:[{visibility:"off"}]},{featureType:"road.arterial",elementType:"geometry",stylers:[{hue:"#fad959"}]},{featureType:"road.arterial",elementType:"labels",stylers:[{visibility:"off"}]},{featureType:"road.local",elementType:"geometry",stylers:[{visibility:"off"}]},{featureType:"road.local",elementType:"labels",stylers:[{visibility:"simplified"}]},{featureType:"transit",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"water",elementType:"all",stylers:[{hue:"#a1cdfc"},{saturation:30},{lightness:49}]}]
+		});
+
+		var goldStar = {
+           path: google.maps.SymbolPath.CIRCLE,            
+          fillColor: 'yellow',
+          fillOpacity: 0.7,
+          scale: 7,
+
+          strokeColor: 'tomato',
+          strokeOpacity: 0.9,
+          strokeWeight: 2
+        };
+
+		var bounds = new google.maps.LatLngBounds();
+		infowindow = new google.maps.InfoWindow({
+                content: "loading..."
+            });
+	
+	
+	marker = mapp.addMarker({ lat: 41.304991, lng:  2.081936, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.304991,  2.081936));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246954788_3124540918_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.398669, lng:  2.170661, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.398669,  2.170661));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206785995_8a72d880b2_h.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.390452, lng:  2.166733, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.390452,  2.166733));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246951428_98d6678eb8_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.389611, lng:  2.166963, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.389611,  2.166963));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246949698_e3e0eb5eea_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.389513, lng:  2.168641, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.389513,  2.168641));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246948468_c642cf62c0_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.413638, lng:  2.153108, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.413638,  2.153108));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118105571_5e0b48f01d_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.413608, lng:  2.152891, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.413608,  2.152891));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246982128_44baf6b8cd_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.414088, lng:  2.152527, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.414088,  2.152527));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068194552_579df17115_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.414122, lng:  2.152552, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.414122,  2.152552));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068194222_5f307a7bd0_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.413911, lng:  2.152780, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.413911,  2.152780));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068193392_a2f1bae3b7_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.413861, lng:  2.152738, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.413861,  2.152738));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068192762_f0c606b44e_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.413455, lng:  2.152222, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.413455,  2.152222));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068191892_8b41529a31_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.413525, lng:  2.152269, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.413525,  2.152269));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068191232_646c20d5ab_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.415250, lng:  2.153822, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.415250,  2.153822));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068190532_e4fc126b86_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.415344, lng:  2.153994, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.415344,  2.153994));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394302984_cc198e48f0_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.410633, lng:  2.156349, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.410633,  2.156349));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394302014_1b78d1e804_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.403088, lng:  2.173699, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.403088,  2.173699));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118099131_36f05f711b_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.402727, lng:  2.173475, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.402727,  2.173475));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118097831_edcf523cee_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.380916, lng:  2.182816, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.380916,  2.182816));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394295674_35af4d4d4e_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.380413, lng:  2.185625, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.380413,  2.185625));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394293714_f9e116b657_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.378391, lng:  2.187372, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.378391,  2.187372));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118091351_bc7384fe18_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.376858, lng:  2.188302, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.376858,  2.188302));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394290934_780ff935df_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.375552, lng:  2.189197, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.375552,  2.189197));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118089331_4c29401658_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.375069, lng:  2.189494, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.375069,  2.189494));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118088711_11cc0fcf73_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.374844, lng:  2.189611, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.374844,  2.189611));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301740720_f151e23746_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.374819, lng:  2.189569, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.374819,  2.189569));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118087671_77b8003984_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.374244, lng:  2.189913, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.374244,  2.189913));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301739770_98a2dbf908_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.374122, lng:  2.190044, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.374122,  2.190044));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178950027_bd1dab126c_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.373975, lng:  2.190161, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.373975,  2.190161));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178949367_989f0a733c_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.373986, lng:  2.190200, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.373986,  2.190200));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178948087_382a6c685d_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.373966, lng:  2.189722, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.373966,  2.189722));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178948007_98bc5a8691_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.374108, lng:  2.190088, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.374108,  2.190088));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118083351_d2593fd7e7_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.373894, lng:  2.190102, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.373894,  2.190102));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178947297_98259378b7_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.381827, lng:  2.182558, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.381827,  2.182558));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394285234_d678471d65_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.381480, lng:  2.182205, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.381480,  2.182205));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118082771_24470e270a_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.386786, lng:  2.167316, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.386786,  2.167316));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178947137_77306770a8_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.371733, lng:  2.151091, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.371733,  2.151091));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301735410_37f60f0800_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.371497, lng:  2.151780, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.371497,  2.151780));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301733660_49138a4941_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.371425, lng:  2.151608, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.371425,  2.151608));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301733020_8d91af416f_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.371358, lng:  2.151508, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.371358,  2.151508));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301732500_e9596e7cff_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.371300, lng:  2.151475, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.371300,  2.151475));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206835815_3deb4a7c77_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.371730, lng:  2.151711, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.371730,  2.151711));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301731620_3da09a8863_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.371761, lng:  2.151733, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.371761,  2.151733));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301731440_7fab466859_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.371730, lng:  2.151738, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.371730,  2.151738));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301731300_4bdd6c8c9b_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.370863, lng:  2.152302, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.370863,  2.152302));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206834935_014ed82780_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.381394, lng:  2.178405, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.381394,  2.178405));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068225642_69802bc5fc_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.381222, lng:  2.178411, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.381222,  2.178411));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068224642_a0676ccf31_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.392188, lng:  2.179355, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.392188,  2.179355));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206784065_c45f69ca7a_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.391316, lng:  2.180286, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.391316,  2.180286));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206782815_46ccf59165_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.391286, lng:  2.180283, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.391286,  2.180283));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118094651_956c970cd2_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.390897, lng:  2.180816, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.390897,  2.180816));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206782325_0d7febbdef_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.386352, lng:  2.186222, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.386352,  2.186222));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394343844_b90f4006fe_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.387480, lng:  2.187777, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.387480,  2.187777));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206844125_6cf478dd3b_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.387591, lng:  2.187752, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.387591,  2.187752));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118124651_43b19f66ef_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.388455, lng:  2.186550, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.388455,  2.186550));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394340754_3b27b4c67a_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.388236, lng:  2.186941, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.388236,  2.186941));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246972718_bc62232ba9_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.388275, lng:  2.187033, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.388275,  2.187033));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394339134_1b84b6c882_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.388541, lng:  2.186566, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.388541,  2.186566));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178988477_6fb19bff53_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.385413, lng:  2.169894, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.385413,  2.169894));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068227762_5688b33fe0_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.381888, lng:  2.172108, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.381888,  2.172108));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/bokeria_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.381894, lng:  2.172250, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.381894,  2.172250));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068208482_a02041f6de_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.382038, lng:  2.172144, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.382038,  2.172144));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068207892_d038408d02_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.381938, lng:  2.172133, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.381938,  2.172133));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206809055_7b1705a1f2_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.381869, lng:  2.171894, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.381869,  2.171894));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246959168_16254cb57b_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.381888, lng:  2.171611, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.381888,  2.171611));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068205842_dcd3cc9dfa_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.381736, lng:  2.171511, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.381736,  2.171511));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068205512_e4ca8e0dc5_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 41.387658, lng:  2.170252, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(41.387658,  2.170252));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246957098_6f283778f1_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+			
+	mapp.map.fitBounds(bounds);
+
+	}
+	
+</script>
+
+
+<div class="modal fade modal-gift">
+	<div class="modal-dialog">
+		<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title">Получить подарочек</h4>
+			</div>
+			<div class="modal-body">
+				<p>Похоже вы очень внимательный читатель. Заполните форму, и, если только вас уже не обошли, за это я с вами свяжусь и передам подарочек из этой поездки! Количество подарочков очень ограничено.<p>
+				<p><b>Имя</b>: <input type="text" class="name"></p>
+				<p><b>Email</b>: <input type="text" class="email"></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+				<button type="button" class="btn btn-primary gift-button">Хочу подарок!</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="container journal">	
+	<div class="left-panel xpanel"></div>
+	<div class="right-panel xpanel"></div>
+
+	<img class="journal-header-photo" src="//www.zavalny.com/img/covers/barcelona.jpg">
+	
+	
+    <button class="btn btn-default" onclick="$('#map').show();initMap()" style="margin-bottom:20px">Показать карту</button>
+    <div id="map" style="height: 500px; display: none;"></div>
+    
+
+	
+
+	
+	<div class="journal-places"></div>
+	
+	
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				В июле 2018 мы с Ксюшей наконец-то съездили в Барселону! Небольшой трёхдневный отдых для юных родителей. И мы решили так расслабиться, что даже не снимать на фотоаппарат (почти). Поэтому, если интересно, как мы погуляли, придётся терпеть пиксельные, да еще и необработанные фотографии.
+<br><br>
+Обязательная приветствующая фотография из автобуса. Тату фальшивка.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3457" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 75.09765625%">
+				
+
+				
+
+				<img id="photo_3457" data-photo-id="3457" data-width="1024" data-height="769" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246954788_3124540918_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246954788_3124540918_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.304991, 2.081936&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				Всем известно, что лучший способ изучить город – это просто пойти погулять. Так мы и сделали. Первое, что бросается в глаза в Барселоне это широкие, невероятно широкие улицы, которые появились в результате перепланировки города.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper hero" data-id="3495" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 43.65234375%">
+				
+
+				
+
+				<img id="photo_3495" data-photo-id="3495" data-width="1024" data-height="447" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206785995_8a72d880b2_h.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206785995_8a72d880b2_h.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.398669, 2.170661&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				Оказавшись впервые в Барселоне мы всё время обращали на это внимание и всё время хотелось это зафиксировать на фото. Гулять по таким улицам сплошное удовольствие и ощущается как глоток свежего воздуха после практически любого другого города.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3464" style="max-width: px;">					
+			
+			
+			<div class="images group" style="padding-bottom: 75.0%">
+				
+
+				
+						<div class="arrow left glyphicon"><div class="left-arrow-content"></div></div>
+						<div class="arrow right glyphicon"><div class="right-arrow-content"></div></div>
+				
+
+				<img id="photo_3464" data-photo-id="3464" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246951428_98d6678eb8_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246951428_98d6678eb8_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+					
+						
+						
+						<img data-width="1024" data-height="768" id="photo_3465" data-photo-id="3465" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246949698_e3e0eb5eea_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246949698_e3e0eb5eea_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="768" id="photo_3467" data-photo-id="3467" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246948468_c642cf62c0_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246948468_c642cf62c0_b.jpg" class="lazy " data-action="zoom" />
+									
+				
+			</div>
+
+			
+				<div class="thumbnails">
+										
+					<div id="thumb_3464" data-photo-id="3464" class="dot current"></div>
+										
+					<div id="thumb_3465" data-photo-id="3465" class="dot"></div>
+										
+					<div id="thumb_3467" data-photo-id="3467" class="dot"></div>
+								
+				</div>
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.390452, 2.166733&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					Кстати, вы наверное это уже знаете, что Барселона однозначно самый красивый город в мире, если смотреть на неё сверху. Её специально реконструировали таким образом, чтобы весь город представлял из себя сетку из дорог и перекрёстков. Основная цель – избежать пробок. Плюс, чтобы весь город отлично продувался ветром. (Фото не наше)
+<br/>
+<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/barcelona-aerial.jpg" class="img-responsive">
+Каждый блок представляет собой квадрат квадрат, но при этом у квадрата срезаны углы, то есть фактически это восьмиугольник. Углы срезаны, чтобы улучшить видимость на перекрёстках и чтобы трамваем было легче поворачивать. Это ли не гениально.
+<br><br>Как видите, Барселона – очень большая. Она занимает 10-е место в Европе по численности населения. Но гуляя в городе, не ощущаешь, что людей слишком много. <br><br>
+Идём дальше. С погодой нам повезло не очень. Только стоило собраться в парк Гюэль, сразу же пошел дождь и это омрачило наше посещение.
+
+Особая печаль нас ждала, когда мы приехали в <em data-place-ndx="0">парк Гюэль</em>. Мало того, что погода подвела, так еще и весь туристический верх парка был на реконструкции, и вид оказался, мягко говоря, не очень.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118105571_5e0b48f01d_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118105571_5e0b48f01d_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246982128_44baf6b8cd_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246982128_44baf6b8cd_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Красота, да? Сплошное разочарование в парке Гюэль.. Но погода – не единственная тому причина. В парке уже давно ведётся реконструкция, всё в каких-то мешках, строительных лесах и ограждениях. Вид жуткий, и при покупке билетов об этом не предупреждают. Но все туристы всё равно ползут к самому туристическому месту парка, чтобы "залепить сторис в инсту", как говорится.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068194552_579df17115_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068194552_579df17115_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068194222_5f307a7bd0_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068194222_5f307a7bd0_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Можно повернуть камеру, чтобы не видеть мусорку, а можно повернуть так, чтобы видеть.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068193392_a2f1bae3b7_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068193392_a2f1bae3b7_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068192762_f0c606b44e_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068192762_f0c606b44e_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Ну ладно-ладно, есть шанс прогуляться по парку, чтобы всей этой стройки не видеть.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068191892_8b41529a31_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068191892_8b41529a31_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068191232_646c20d5ab_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068191232_646c20d5ab_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Потом вышло солнце и стало совсем суперически. Но всё же парк Гюэля мы не рекомендуем посещать пока не закончится стройка, а ей пока конца не видно.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068190532_e4fc126b86_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068190532_e4fc126b86_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394302984_cc198e48f0_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394302984_cc198e48f0_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				О том, как мы перемещались. В Барселоне было жарко. Одного раза забежать в метро нам оказалось достаточно, чтобы понять, что этот вид транспорта использовать нереально – там была такая духота и толкучка, что Ксюше стало плохо и мы сбежали наверх. Остальное время ходили пешком, но иногда прибегали к услугам такси. Дорого по километражу, но так как всё довольно близко друг к другу, то в сумме нормально выходит.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3488" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 75.0%">
+				
+
+				
+
+				<img id="photo_3488" data-photo-id="3488" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394302014_1b78d1e804_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394302014_1b78d1e804_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.410633, 2.156349&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					После парка поехали посмотреть, как выглядит <em data-place-ndx="1">Саграда Фамилия</em>. Ну плохо она выглядит, ее всё строят там. В 2026 году обещают доделать, вот туристы ломанутся!  
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118099131_36f05f711b_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118099131_36f05f711b_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118097831_edcf523cee_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118097831_edcf523cee_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				После того, как плохая погода полностью миновала, стало ясно одно. В солнце Барселона просто великолепна. У неё совершенно уникальная архитектура, атмосфера и дух. В ней очень-очень хорошо.<br><br>
+Есть в Барселоне такой район — <em data-place-ndx="3">Барселонета</em>, что в переводе означает "маленькая Барселона". Этот район относится к старой части города и находится напротив моря. Барселонету любят студенты — здесь множество библиотек, парков, спортивных площадок. Туристы тоже любят этот район, поэтому его облюбовали уличные продавцы ширпотреба.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3503" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 75.0%">
+				
+
+				
+
+				<img id="photo_3503" data-photo-id="3503" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394295674_35af4d4d4e_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394295674_35af4d4d4e_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.380916, 2.182816&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				Имеются немалые сомнения на счёт подлинности этого товара.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3508" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 75.0%">
+				
+
+				
+
+				<img id="photo_3508" data-photo-id="3508" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394293714_f9e116b657_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394293714_f9e116b657_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.380413, 2.185625&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					И снова гуляя по Барселоне замечаешь её невероятно широкие улицы.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118091351_bc7384fe18_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118091351_bc7384fe18_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394290934_780ff935df_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394290934_780ff935df_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				В район Барселонета нужно заглянуть хотя бы для прогулки по набережной и по самому пляжу. Людей тут — тьма тьмущая. Кто-то идёт на пляж, кто-то с пляжа, и мало кто заморачивается на тему одежды.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3514" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 75.0%">
+				
+
+				
+
+				<img id="photo_3514" data-photo-id="3514" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118089331_4c29401658_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118089331_4c29401658_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.375552, 2.189197&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118088711_11cc0fcf73_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118088711_11cc0fcf73_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301740720_f151e23746_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301740720_f151e23746_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				А вот и сам <em data-place-ndx="3">пляж Барселонетта</em>. Атмосфера была просто суперская: тёпло, солнечно, народ веселится, играет музыка, а теплый песочек так и манит. <br><br>Не могу сказать, что этот пляж можно назвать хорошим именно в плане пляжного отдыха. Но как место, в которое можно быстро вырваться прямо из центра города и отдохнуть у воды — просто нереально! Что все и делают. Всегда завидовал таким городам. Работая в центре Риги в обеденный перерыв жарким летом можно сбегать до парка и посидеть на траве, но о пляже с водой можно только мечтать.<br/><br/>
+Интересный факт, что до 1992 года в Барселоне вообще нормальных человеческих пляжей не было, так что все пляжи, что есть сейчас — искусственные.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3521" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 75.0%">
+				
+
+				
+
+				<img id="photo_3521" data-photo-id="3521" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118087671_77b8003984_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118087671_77b8003984_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.374819, 2.189569&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301739770_98a2dbf908_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301739770_98a2dbf908_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178950027_bd1dab126c_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178950027_bd1dab126c_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Видите отель в виде паруса на заднем плане? Это пятизвёздочный отель W Barcelona, с собственным пляжем и бассейном. Из-за своей стильной архитектуры, это здание уже становится символом Барселону. Уступает конечно Саграде, но всё равно можно уже найти открытки "Барселона" с пляжем Барселонетта и отелем W на фоне. Цены в нём, кстати, от 260 евро за ночь.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178949367_989f0a733c_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178949367_989f0a733c_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3315994798439532">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.09765625%">						
+							<img class="lazy" style="position: absolute" width="1024" height="769" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178948087_382a6c685d_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178948087_382a6c685d_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178948007_98bc5a8691_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178948007_98bc5a8691_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118083351_d2593fd7e7_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118083351_d2593fd7e7_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				Нам так повезло, что мы встретили сразу двух Ким Кардашьян. 
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3540" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 75.0%">
+				
+
+				
+
+				<img id="photo_3540" data-photo-id="3540" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178947297_98259378b7_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178947297_98259378b7_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.373894, 2.190102&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				Чтобы успеть все осмотреть, мы поступили как настоящие туристы — взяли, да купили билеты на туристический автобус "Hop On - Hop Off". Я до сих пор не уверен, правильно ли мы поступили. С одной стороны, классно отдохнуть от пеших прогулок, сидеть наверху и рассматривать город, а с другой, бывает приходится очень долго ждать, пока все зайдут, плюс остановки порой даже слишком часто. <br><br>
+<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/bus-map.png" class="img-responsive" />
+<br/>
+Но удобство точно есть. Автобусы катаются по трём линиям и эти линии захватывают все интересные барселонские места. К сожалению, все линии односторонние, а круг совершить около 2 часов. Захотел на предыдущую точку? Мотай круг заново.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3541" style="max-width: px;">					
+			
+			
+			<div class="images group" style="padding-bottom: 75.09765625%">
+				
+
+				
+						<div class="arrow left glyphicon"><div class="left-arrow-content"></div></div>
+						<div class="arrow right glyphicon"><div class="right-arrow-content"></div></div>
+				
+
+				<img id="photo_3541" data-photo-id="3541" data-width="1024" data-height="769" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394285234_d678471d65_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394285234_d678471d65_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+					
+						
+						
+						<img data-width="1024" data-height="769" id="photo_3542" data-photo-id="3542" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118082771_24470e270a_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118082771_24470e270a_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="769" id="photo_3543" data-photo-id="3543" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178947137_77306770a8_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178947137_77306770a8_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="769" id="photo_3546" data-photo-id="3546" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301735410_37f60f0800_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301735410_37f60f0800_b.jpg" class="lazy " data-action="zoom" />
+									
+				
+			</div>
+
+			
+				<div class="thumbnails">
+										
+					<div id="thumb_3541" data-photo-id="3541" class="dot current"></div>
+										
+					<div id="thumb_3542" data-photo-id="3542" class="dot"></div>
+										
+					<div id="thumb_3543" data-photo-id="3543" class="dot"></div>
+										
+					<div id="thumb_3546" data-photo-id="3546" class="dot"></div>
+								
+				</div>
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.381827, 2.182558&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					Одно из самых популярных туристических мест в Барселоне несомненно <em>Магический фонтан Монжуика</em>, где проходят музыкально-световые шоу.
+<br><br>
+Вот, кстати, расписание:
+<br>
+с 30 апреля до 30 сентября — с четверга по воскресенье, 21:00 – 23:30 (музыкальные шоу в 21:00, 21:30, 22:00, 22:30 и 23:00);<br>
+с 1 октября по 30 апреля — с четверга по субботу 20:00 – 21:00 (шоу — в 20:00, 20:30 и 21:00).
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301733660_49138a4941_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301733660_49138a4941_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301733020_8d91af416f_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301733020_8d91af416f_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Эта фотография называется "Нужно радоваться мелочам в любом возрасте". Парню слева — 31, а парню по центру над головой моей жены — года 3-5. А счастья-то поровну.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3315994798439532">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.09765625%">						
+							<img class="lazy" style="position: absolute" width="1024" height="769" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301732500_e9596e7cff_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301732500_e9596e7cff_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Всё это оказалось прекрасным зрелищем. Главное - смотреть и близко, и отходить далеко. Шоу классное. А вот с музыкой не всё в порядке. Да, репертуар идеальный – одно начало с Queen "Barcelona" чего стоит. Но на качественную технику в правильных количествах пожмотились, поэтому слышно музыку не везде. Сходить стоит, это настоящий праздник.<br/><br/>
+Немного не в тему, но про праздники — в Барселоне есть праздник "День Святого Георгия", который по смыслу, как день святого Валентина. Его отмечают 23-го апреля.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3368146214099217">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 74.8046875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="766" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206835815_3deb4a7c77_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206835815_3deb4a7c77_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301731620_3da09a8863_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301731620_3da09a8863_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301731440_7fab466859_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301731440_7fab466859_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301731300_4bdd6c8c9b_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/44301731300_4bdd6c8c9b_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206834935_014ed82780_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206834935_014ed82780_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				А это — старый, готический квартал Барселоны. Интересно в нём только то, что раньше вся Барселона была такой. Сплошной лабиринт из маленьких улочек. И только когда было принята перепланировка Барселоны, весь центр превратился в идеальную сетку из дорог и перекрёстков, а готический квартал до сих пор позволяет окунуться в историю.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3584" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 46.38671875%">
+				
+
+				
+
+				<img id="photo_3584" data-photo-id="3584" data-width="1024" data-height="475" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068225642_69802bc5fc_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068225642_69802bc5fc_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.381394, 2.178405&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3585" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 75.0%">
+				
+
+				
+
+				<img id="photo_3585" data-photo-id="3585" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068224642_a0676ccf31_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068224642_a0676ccf31_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.381222, 2.178411&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				Сангрия в Барселоне шла прекрасно.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3586" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 75.0%">
+				
+
+				
+
+				<img id="photo_3586" data-photo-id="3586" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068224392_65297909a2_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068224392_65297909a2_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					Если вы оказались в Барселоне, обязательно догуляйте до Триумфальной Арки. <em data-place-ndx="5">Триумфальная Арка</em> образует вход на променадную улицу, которая ведёт до шикарнейшего парка Сьютаделья.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206784065_c45f69ca7a_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206784065_c45f69ca7a_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206782815_46ccf59165_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206782815_46ccf59165_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118094651_956c970cd2_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118094651_956c970cd2_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206782325_0d7febbdef_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206782325_0d7febbdef_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				Парк нам показался просто огромным! На 30 гектарах расположены красивые архитектурные строения и скульптуры, множество растений и цветов, оранжерея, музей геологии и даже озеро, по которому можно покататься на лодках.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3588" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 75.0%">
+				
+
+				
+
+				<img id="photo_3588" data-photo-id="3588" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394343844_b90f4006fe_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394343844_b90f4006fe_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.386352, 2.186222&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206844125_6cf478dd3b_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206844125_6cf478dd3b_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118124651_43b19f66ef_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46118124651_43b19f66ef_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Если мне не изменяет память, то это развлечение стоило нам 6 евро. Платишь и катаешься сколько захочется, никто время не считает. Озеро маленькое, но удовольствие огромное. Многие группы друзей разбиваются на лодках и таранят друг друга или преследуют прямо на озере. <br><br>
+Можно обплывать небольшие островки с растениями и всякой живностью, чтобы было интереснее. Я понимаю, что это не единственное озеро в парке, в котором можно поплавать на лодке, но из-за его миниатюрных размеров и довольно большого количества посетителей всё это развлечение показалось нам довольно оригинальным.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394340754_3b27b4c67a_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394340754_3b27b4c67a_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246972718_bc62232ba9_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246972718_bc62232ba9_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394339134_1b84b6c882_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45394339134_1b84b6c882_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178988477_6fb19bff53_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/31178988477_6fb19bff53_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				Самая популярная у туристов улица в Барселоне это <em data-place-ndx="7">La Rambla</em>. На самом деле, кстати, это не одна улицы, а целых 5. Здесь всегда множество людей, по бокам улицы расположены магазины и есть дороги для машин, а в центральной части полностью пешеходная зона и всякие мелкие киоски цветов и сувениров. А еще регулярно подбегают странные ребята и предлагают марихуану. В Барселоне её можно покурить не боясь огрести – травка тут полностью легализована.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3576" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 75.0%">
+				
+
+				
+
+				<img id="photo_3576" data-photo-id="3576" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068227762_5688b33fe0_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068227762_5688b33fe0_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.385413, 2.169894&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					Являясь любителями рынков, мы посетили <em data-place-ndx="8">рынок Бокерия</em>, вход в который находится прямо на улице La Rambla.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/bokeria_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/bokeria_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068208482_a02041f6de_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068208482_a02041f6de_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Всем, кому нравится еда, мы очень рекомендуем сюда придти, хотя бы посмотреть на всё это. Тут полки и прилавки ломятся от изобилия рыбы и мяса, фруктов и овощей, коктейлей, деликатесов, морепродуктов и всего-всего сьедобного. Гуляя там и рассматривая всё, что продаётся, иногда даже не знаешь, как оно на русском называется — экзотики тут куча.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068207892_d038408d02_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068207892_d038408d02_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206809055_7b1705a1f2_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/45206809055_7b1705a1f2_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246959168_16254cb57b_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246959168_16254cb57b_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.75">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 133.33333333333331%">						
+							<img class="lazy" style="position: absolute" width="768" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068205842_dcd3cc9dfa_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068205842_dcd3cc9dfa_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068205512_e4ca8e0dc5_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/46068205512_e4ca8e0dc5_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				На этом мы заканчиваем нашу прогулку по Барселоне и мысленно возвращаемся в Ригу. Кстати, доехать до аэропорта в Барселоне задача наипростейшая. Прямо из центра с завидной регулярностью ходят шаттлы.<br><br>
+Барселона нам очень понравилась. Это город, в который хочется возвращаться, так же как и в Лондон, например. Приезжая сюда, понимаешь, что тут всегда найдешь, как прекрасно провести время. Здесь самая лучшая городская архитектура в мире. А солнечный климат может склонить даже самого упёртого любителя столицы Британии сделать исключение, и махнуть в Барселону!
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3619" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 75.0%">
+				
+
+				
+
+				<img id="photo_3619" data-photo-id="3619" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246957098_6f283778f1_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/barcelona/32246957098_6f283778f1_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=41.387658, 2.170252&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+	
+
+	<div class="post-scriptum">
+		
+
+		<div class="journal_photo">			
+			<div class="journal_photo_description">
+				П.С. Возможно, вам будет также интересно прочитать наш другой фото-отчёт <a href="/travel/egypt">Египет </a>!
+			</div>			
+			
+			<a href="/travel/egypt"><img src="/img/covers/egypt.jpg" class="img-responsive" /></a>			
+		</div>			
+	</div>	
+
+	<div id="disqus_thread"></div>
+<script>
+	var disqus_config = function () {
+	    this.page.url = 'http://www.zavalny.com/travel/barcelona'; 
+	    this.page.identifier = 'barcelona';
+	};
+
+	window.onload = function() {
+		(function() { // DON'T EDIT BELOW THIS LINE
+		    var d = document, s = d.createElement('script');
+		    s.src = '//zavalny.disqus.com/embed.js';
+		    s.setAttribute('data-timestamp', +new Date());
+		    (d.head || d.body).appendChild(s);
+		})();
+	};
+</script>
+</div>	
+	
+
+
+      
+     <script src="/assets/app-2fd58e8c6960cbfaa0aeae3cb276fd8b21fa9355d8de32f7799b29af0b63996f.js" async></script>
+
+    
+
+    <script id="dsq-count-scr" src="//zavalny.disqus.com/count.js" async></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62303886-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </body>
+</html>

@@ -1,0 +1,2338 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Кипр | Сайт Александра Завального - про питание, спорт, путешествия и настольные игры</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="/assets/app-8fa0be5024cc1f580643f1bb9a14bb956fe1204a233c5c87f2330da3e43b3560.css">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">    
+
+   <meta property="og:site_name" content="Сайт Александра Завального - про питание, спорт, путешествия и настольные игры"/>
+    
+      <meta property="og:title" content="Кипр | Александр Завальный"/>
+      <meta property="og:image" content="http://zavalny.com/img/covers/cyprus.jpg"/>
+      <meta property="og:url" content="http://www.zavalny.com/travel/cyprus"/>
+      <link rel="canonical" href="http://www.zavalny.com/travel/cyprus" />
+      <meta property="og:description" content=""/>
+      <meta name="description" content="">
+    
+    <meta name="author" content="Александр Завальный">    
+  
+    <link href='//fonts.googleapis.com/css?family=Lobster|Roboto&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+    <meta name="google-site-verification" content="0UF26V-ZzTJWHBd9MFfQrsrRmZ2YyLyfM6FebmLVw5Q8" />
+
+    
+  </head>
+  <body>        
+
+          
+    <div id="background" style="background-image: url('//www.zavalny.com/img/covers/cyprus.jpg');">
+    </div>
+  
+
+   <div class="breadcrumb-bar" vocab="http://schema.org/" typeof="BreadcrumbList">
+    <a href="/"><span class="glyphicon glyphicon-home" style="font-size: 22px;"></span></a>
+    
+        
+            / <div property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/travel"><span property="name">Путешествия</span></a></div>
+        
+    
+        
+            / <h1>Кипр</h1>
+        
+    
+    
+    
+</div>
+  
+
+	 <script type="text/javascript">
+	var card_code = "cyprus";
+</script>
+
+	
+		
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8"
+    ></script>
+<script>
+	function onPageLoad() {
+		var ndx = 0;
+		$("em").each(function(n, e) {
+			var placeInText = $(this);
+			placeInText.attr("data-place-ndx", ndx);			
+
+	        $("<a class='place' href='#' />").attr("data-toplace-ndx", ndx).text($(this).text()).appendTo($(".journal-places")).click(function () {
+	        	$('html, body').animate({
+			        scrollTop: $("em[data-place-ndx=" + $(this).attr("data-toplace-ndx") + "]").offset().top - 20
+			    }, 1000);
+	        })
+
+	        ndx ++;
+	    });	  
+
+		
+		
+	}
+	function initMap() {
+		mapp = new GMaps({
+	    	div: '#map',
+	    	styles: [{featureType:"administrative.land_parcel",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"landscape.man_made",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"poi",elementType:"labels",stylers:[{visibility:"off"}]},{featureType:"road",elementType:"labels",stylers:[{visibility:"off"},{lightness:20}]},{featureType:"road.highway",elementType:"geometry",stylers:[{visibility:"off"}]},{featureType:"road.arterial",elementType:"geometry",stylers:[{hue:"#fad959"}]},{featureType:"road.arterial",elementType:"labels",stylers:[{visibility:"off"}]},{featureType:"road.local",elementType:"geometry",stylers:[{visibility:"off"}]},{featureType:"road.local",elementType:"labels",stylers:[{visibility:"simplified"}]},{featureType:"transit",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"water",elementType:"all",stylers:[{hue:"#a1cdfc"},{saturation:30},{lightness:49}]}]
+		});
+
+		var goldStar = {
+           path: google.maps.SymbolPath.CIRCLE,            
+          fillColor: 'yellow',
+          fillOpacity: 0.7,
+          scale: 7,
+
+          strokeColor: 'tomato',
+          strokeOpacity: 0.9,
+          strokeWeight: 2
+        };
+
+		var bounds = new google.maps.LatLngBounds();
+		infowindow = new google.maps.InfoWindow({
+                content: "loading..."
+            });
+	
+	
+	marker = mapp.addMarker({ lat: 34.983511, lng:  33.955986, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.983511,  33.955986));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788554488_aa882019c8_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.982736, lng:  33.954391, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.982736,  33.954391));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936224804_4a90ef2ec6_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.982030, lng:  33.955847, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.982030,  33.955847));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661268871_8a91a14da6_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.983788, lng:  33.956372, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.983788,  33.956372));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610470482_ce7a2d0c53_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.983358, lng:  33.956119, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.983358,  33.956119));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936172084_b23a624e3f_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.983463, lng:  33.955972, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.983463,  33.955972));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842827360_0af5bd4198_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.983175, lng:  33.955975, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.983175,  33.955975));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610424382_1423aa1ee9_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.982300, lng:  33.955777, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.982300,  33.955777));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720293987_c42f6cbda4_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.983297, lng:  33.956113, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.983297,  33.956113));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788515728_393243b2ec_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.983463, lng:  33.956005, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.983463,  33.956005));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720299457_7d1fcb210b_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.983425, lng:  33.955627, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.983425,  33.955627));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661291761_9873766dcf_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.983411, lng:  33.955852, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.983411,  33.955852));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746677395_f353b6a3a1_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.983400, lng:  33.955972, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.983400,  33.955972));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788584258_9b92a96bb4_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.983997, lng:  33.956938, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.983997,  33.956938));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788558698_80daff75d2_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.984269, lng:  33.956547, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.984269,  33.956547));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720295587_6c1a8da34f_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.984083, lng:  33.956786, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.984083,  33.956786));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661271601_60f2350cd7_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.984275, lng:  33.956511, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.984275,  33.956511));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746686825_1b7ac0ebb2_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.984277, lng:  33.956641, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.984277,  33.956641));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661331861_cb4828d3c4_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.965847, lng:  34.079791, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.965847,  34.079791));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610422692_8ce4536783_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.965888, lng:  34.079833, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.965888,  34.079833));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661251691_cb4721df02_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.965891, lng:  34.079811, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.965891,  34.079811));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610423682_a9f91bdcf4_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.972055, lng:  34.075436, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.972055,  34.075436));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661305421_46dae0e992_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.972077, lng:  34.075383, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.972077,  34.075383));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661245621_b801df0eca_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.971902, lng:  34.075300, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.971902,  34.075300));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661252481_36f2a022f8_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.972055, lng:  34.075436, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.972055,  34.075436));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936247664_1ed3c8f14c_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.964255, lng:  34.081502, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.964255,  34.081502));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842824930_46002e0348_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.965811, lng:  34.080694, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.965811,  34.080694));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661330911_2a15c0f297_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.971947, lng:  34.075236, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.971947,  34.075236));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788586608_83a20ac6a6_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.971813, lng:  34.075216, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.971813,  34.075216));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842823190_c1acbf2609_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.971947, lng:  34.075236, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.971947,  34.075236));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610509582_a5488a918c_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.911600, lng:  33.635261, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.911600,  33.635261));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661243131_e57e70d899_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.911600, lng:  33.635505, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.911600,  33.635505));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661236401_a3778d7571_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.911511, lng:  33.635327, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.911511,  33.635327));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610457542_cb8fd63432_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.909302, lng:  33.639288, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.909302,  33.639288));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661273141_ae84b10112_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.911141, lng:  33.638086, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.911141,  33.638086));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842865210_8049bf0668_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.987647, lng:  33.993838, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.987647,  33.993838));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661234631_65cd985b13_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.888361, lng:  33.627094, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.888361,  33.627094));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720335727_873e60c9a6_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.888450, lng:  33.627019, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.888450,  33.627019));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788512558_c316cdf976_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.888450, lng:  33.627019, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.888450,  33.627019));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720329867_58d4890afa_h.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.888486, lng:  33.626872, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.888486,  33.626872));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661269911_4e015796e4_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.888522, lng:  33.626852, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.888522,  33.626852));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720252087_740d321fa7_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.888569, lng:  33.626822, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.888569,  33.626822));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610510262_4bc32cbfcb_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.982819, lng:  34.016875, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.982819,  34.016875));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720331457_61303e76bd_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.982522, lng:  34.016877, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.982522,  34.016877));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720320287_5f1b447d81_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.982616, lng:  34.015819, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.982616,  34.015819));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661263751_484dba0425_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.988255, lng:  34.000222, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.988255,  34.000222));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746737985_3f32026409_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.988505, lng:  34.000002, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.988505,  34.000002));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720296757_f530236377_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.988469, lng:  34.000322, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.988469,  34.000322));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936213614_98ac55c10d_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.986644, lng:  33.997952, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.986644,  33.997952));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720314667_3d0755666c_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.988580, lng:  34.000269, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.988580,  34.000269));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720333777_f81612ef1c_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.673833, lng:  33.047147, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.673833,  33.047147));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746724295_170a0c397c_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.673702, lng:  33.047344, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.673702,  33.047344));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842889240_c746fe5cbd_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.672325, lng:  33.048152, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.672325,  33.048152));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720325157_cbdda92920_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.672555, lng:  33.045330, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.672555,  33.045330));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842862580_238da38955_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.672527, lng:  33.045383, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.672527,  33.045383));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720301837_341cff0626_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.672472, lng:  33.045622, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.672472,  33.045622));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661279131_7749a50c13_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.672158, lng:  33.044786, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.672158,  33.044786));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746692175_8cc4696e75_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.673166, lng:  33.046022, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.673166,  33.046022));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661261291_59e45a14c6_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.674102, lng:  33.047063, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.674102,  33.047063));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788510038_472152b9dd_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.674205, lng:  33.047247, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.674205,  33.047247));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661250281_08885758b0_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.673322, lng:  33.046161, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.673322,  33.046161));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661248421_5e487e9bb2_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.672000, lng:  33.044791, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.672000,  33.044791));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936219194_52f4a570fb_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.985530, lng:  33.968202, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.985530,  33.968202));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661237911_bdebd9a709_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.983336, lng:  33.956033, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.983336,  33.956033));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936249194_f6d3a21379_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+	
+	
+	marker = mapp.addMarker({ lat: 34.983405, lng:  33.956119, icon: goldStar  });
+	bounds.extend(new google.maps.LatLng(34.983405,  33.956119));
+    google.maps.event.addListener(marker, "mouseover", function(){
+    	infowindow.setContent('<img src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610473162_46c57a37f3_b.jpg" border="0">');
+    	infowindow.open(mapp,this);
+    });
+    google.maps.event.addListener(marker, "mouseout", function(){    	
+    	infowindow.close();
+    });
+
+			
+	mapp.map.fitBounds(bounds);
+
+	}
+	
+</script>
+
+
+<div class="modal fade modal-gift">
+	<div class="modal-dialog">
+		<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title">Получить подарочек</h4>
+			</div>
+			<div class="modal-body">
+				<p>Похоже вы очень внимательный читатель. Заполните форму, и, если только вас уже не обошли, за это я с вами свяжусь и передам подарочек из этой поездки! Количество подарочков очень ограничено.<p>
+				<p><b>Имя</b>: <input type="text" class="name"></p>
+				<p><b>Email</b>: <input type="text" class="email"></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+				<button type="button" class="btn btn-primary gift-button">Хочу подарок!</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="container journal">	
+	<div class="left-panel xpanel"></div>
+	<div class="right-panel xpanel"></div>
+
+	<img class="journal-header-photo" src="//www.zavalny.com/img/covers/cyprus.jpg">
+	
+	
+    <button class="btn btn-default" onclick="$('#map').show();initMap()" style="margin-bottom:20px">Показать карту</button>
+    <div id="map" style="height: 500px; display: none;"></div>
+    
+
+	
+
+	
+	<div class="journal-places"></div>
+	
+	
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				В мае 2018 года мы с Ксюшей, Юрой и бабушками рванули на Кипр. Успели посмотреть немного, с мелким всё же еще тяжело совершать длительные поездки, а оставлять его всё время не хотелось. Но кое-что всё-таки увидели, об этом и написан наш маленький фотоотчёт! 
+<h3>Про Кипр</h3>
+Кипр — это остров в Средиземном море. Он третий по площади и по населению остров в этом море, после Сицилии и Сардинии, которые принадлежат Италии.
+<br><br>
+Совсем неосведомлённые люди считают, что на острове Кипр есть одно государство, Кипр. Более продвинутые же знают, что он разделён на Республику Кипр и на частично признанное государство Турецкая Республика Северного Кипра. Совсем же просвещенные люди знают, что остров разделён не на 2, а на 3 государства — 2.7% принадлежат Великобритании, где она разместила свои военные базы. Мы жили в Айия-Напе в Республике Кипр, и на турецкую часть не совались.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3400" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3400" data-photo-id="3400" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788554488_aa882019c8_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788554488_aa882019c8_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=34.983511, 33.955986&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				<h3>Про отель</h3>
+
+Многие частенько спрашивают <em data-place-ndx="0">про отель</em>, где жили, плюсы и минусы. Мне такое описывать очень неинтересно, но, видимо, придётся.
+<br><br>
+Мы жили в отеле <a href="http://www.asteriashotels.com/">Asterias Beach Hotel 4*</a>. Для латвийских читателей, если интересно — поездку организовывали через турфирму Begonija, с которой у нас длительные и крепкие отношения. Отель нам понравился, всё было на уровне, только кофе нормального не сыскать. И Мохито не входит в All Inclusive. А так супер.
+<br><br>
+Для пляжного отдыха, разумеется, важно, чтобы сам пляж был рядом с отелем. Собственно, это был один из главных критериев выбора.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3393" style="max-width: px;">					
+			
+			
+			<div class="images group" style="padding-bottom: 75.0%">
+				
+
+				
+						<div class="arrow left glyphicon"><div class="left-arrow-content"></div></div>
+						<div class="arrow right glyphicon"><div class="right-arrow-content"></div></div>
+				
+
+				<img id="photo_3393" data-photo-id="3393" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936224804_4a90ef2ec6_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936224804_4a90ef2ec6_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+					
+						
+						
+						<img data-width="1024" data-height="768" id="photo_3423" data-photo-id="3423" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661268871_8a91a14da6_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661268871_8a91a14da6_b.jpg" class="lazy " data-action="zoom" />
+									
+				
+			</div>
+
+			
+				<div class="thumbnails">
+										
+					<div id="thumb_3393" data-photo-id="3393" class="dot current"></div>
+										
+					<div id="thumb_3423" data-photo-id="3423" class="dot"></div>
+								
+				</div>
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=34.982736, 33.954391&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				<h3>Про пляж</h3>
+Отель находится возле пляжа Макронисос (<em data-place-ndx="1">Makronisos Beach</em>) . Это — бесплатный пляж, берег которого покрыт песком, вода прозрачная и имеет бирюзовый оттенок. Макронисос награжден престижной международной премией «Голубой флаг». Это означает, что вода в нём чистая и что соблюдаются условия безопасного купания. Пляж не самый популярный, слава Богу, но и на него частенько, особенно в выходные, приезжают киприоты. В эти моменты, тут становится тесновато. <br><br>
+Пляж Макронисос оборудован всем необходимым: душ, туалеты, шезлонги, зонтики, спасатели, барчики. Мы каждый день на всю семью арендовали шезлонг (дальше на фотках увидите), он стоил 20 евро за день. Не дёшево, но очень удобно, особенно с активным, ползающим ребёнком.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3402" style="max-width: px;">					
+			
+			
+			<div class="images group" style="padding-bottom: 75.0%">
+				
+
+				
+						<div class="arrow left glyphicon"><div class="left-arrow-content"></div></div>
+						<div class="arrow right glyphicon"><div class="right-arrow-content"></div></div>
+				
+
+				<img id="photo_3402" data-photo-id="3402" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610470482_ce7a2d0c53_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610470482_ce7a2d0c53_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+					
+						
+						
+						<img data-width="1024" data-height="768" id="photo_3378" data-photo-id="3378" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788588598_c1702aeba1_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788588598_c1702aeba1_b.jpg" class="lazy " data-action="zoom" />
+									
+				
+			</div>
+
+			
+				<div class="thumbnails">
+										
+					<div id="thumb_3402" data-photo-id="3402" class="dot current"></div>
+										
+					<div id="thumb_3378" data-photo-id="3378" class="dot"></div>
+								
+				</div>
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=34.983788, 33.956372&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				<h3>Про Юру</h3>
+Кстати, про ребёнка. Это — наш сын Юрка! 
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3442" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3442" data-photo-id="3442" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936172084_b23a624e3f_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936172084_b23a624e3f_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=34.983358, 33.956119&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					Мы первый раз выбрались с ним в поездку. Страшнее всего было лететь, но на практике оказалось нормально. Юрок не кричал и не плакал, как делают многие молокососы, но мне почему-то кажется, что всё впереди. Поговаривают, что даже уши у них со временем как-то формируются, и если они не болят в 8 месяцев, не значит, так будет всегда.<br><br>
+Что сказать про отдых с 8-месячным ребёнком? Это совсем не то, что отдых без ребёнка. Вы не можете просто взять и на весь день уехать исследовать города и природу, нужно много думать про еду, соблюдать режим и прочее. Если бы не бабушки, впечатлений мы бы привезли меньше, это точно. Мы оставляли мелкого и днём, чтобы вырваться в близлежайщие города, и поздно вечером, чтобы поторчать в баре возле отеля. Бабушки — это очень круто.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842827360_0af5bd4198_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842827360_0af5bd4198_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610424382_1423aa1ee9_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610424382_1423aa1ee9_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Но в любом случае, вывезти дитё в тепло и погреть его на солнышке, покупать в море и проветрить на свежем воздухе — это прекрасно. Даже самые маленькие члены семьи получают пользу, пусть даже потом об этом и не вспомнят. В тёплых морских поездках режим у детей становится тоже замечательным, Юрасик, по моим воспоминаниям, только спал и ел. А ещё, на Кипре очень любят детей, взрослые всё время стараются им угодить и порадовать их. Так что смело везите.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3350717079530638">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 74.90234375%">						
+							<img class="lazy" style="position: absolute" width="1024" height="767" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720293987_c42f6cbda4_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720293987_c42f6cbda4_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					На Кипре в году дождь идёт примерно 40 дней. Солнечных дней более трёхсот и уже в феврале киприоты встречают весну. Здесь жарко, но из-за сухости воздуха, жара переносится легко. 
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788515728_393243b2ec_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788515728_393243b2ec_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720299457_7d1fcb210b_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720299457_7d1fcb210b_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661291761_9873766dcf_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661291761_9873766dcf_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746677395_f353b6a3a1_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746677395_f353b6a3a1_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788584258_9b92a96bb4_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788584258_9b92a96bb4_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					В свободное время, когда Юрок спал, а бабушки за ним присматривали, мы прогуливались и устраивали фотосессии, результаты которых вам придётся посмотреть. <br/><br/>Очень красивая прогулочная зона находилась прямо возле пляжа.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788558698_80daff75d2_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788558698_80daff75d2_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720295587_6c1a8da34f_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720295587_6c1a8da34f_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661271601_60f2350cd7_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661271601_60f2350cd7_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746686825_1b7ac0ebb2_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746686825_1b7ac0ebb2_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661331861_cb4828d3c4_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661331861_cb4828d3c4_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Мы с Ксюшей ожидали, что взяв в аренду машину с детским креслом, мы будем регулярно им пользоваться и совершать многочисленные поездки по местам и городам Кипра вместе с Юрой. На практике мы взяли Юру с собой лишь 1 раз, когда поехали смотреть на <em>мыс Каво Греко</em> возле Айия-Напы.<br><br>
+В эту поездку мы поняли, что Юра еще мал, как для поездок с ним, так и для кресла, которое оказалось в машине. Его голова во сне болталась туда-сюда, и в целом было не очень удобно.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610422692_8ce4536783_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610422692_8ce4536783_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661251691_cb4721df02_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661251691_cb4721df02_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610423682_a9f91bdcf4_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610423682_a9f91bdcf4_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661305421_46dae0e992_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661305421_46dae0e992_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661245621_b801df0eca_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661245621_b801df0eca_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661252481_36f2a022f8_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661252481_36f2a022f8_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936247664_1ed3c8f14c_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936247664_1ed3c8f14c_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Даже не знаю, что сказать про мыс Каво-Греко. Он находится в топ-10 мест, которые советует посетить на Кипре сайт TripAdvisor, но мы его посоветовать не можем. Берем и берег, даже с дрона ничего такого интересного, а с земли так вообще.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842824930_46002e0348_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842824930_46002e0348_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661330911_2a15c0f297_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661330911_2a15c0f297_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				Также имеется тут мост из камней — арка, которая впечатления не производит. Короче, мыс Каво Греко можно посетить только от нечего делать, вечерком на закате тут, наверное, может быть красиво.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3380" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3380" data-photo-id="3380" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788586608_83a20ac6a6_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788586608_83a20ac6a6_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=34.971947, 34.075236&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842823190_c1acbf2609_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842823190_c1acbf2609_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610509582_a5488a918c_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610509582_a5488a918c_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					<h3>Ларнака</h3>
+
+В итоге, за 10 дней, три раза мы оставляли Юру с бабушками для вылазок на машине в близлежащие города. Наша первая поездка была в город <em data-place-ndx="3">Ларнака</em>. Мы приехали и сразу потопали на площадь с церковью святого Лазаря, одной из главных достопримечательностей Кипра. Вообще, на Кипре с достопримечательностями бедновато. Я это понял уже листая TripAdvisor, готовясь к поездке. 
+
+<br><br>Закинувшись капучино в соседнем кафе, мы спросили у бармена, можно ли здесь летать на дронах. Он сразу же нас обрадовал, сообщив что летать можно и это регулярно делается. <br><br>
+Но, попытавшись заснять эту церковь на видео, меня начали атаковать птицы. Я сбегал от них высоко-высоко, но по возвращению, всё повторялось. В итоге, пару фоток сделал, но красивое видео так и не получилось. Птицы тут суровые.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661243131_e57e70d899_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661243131_e57e70d899_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.501466275659824">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.6015625%">						
+							<img class="lazy" style="position: absolute" width="1024" height="682" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661236401_a3778d7571_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661236401_a3778d7571_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610457542_cb8fd63432_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610457542_cb8fd63432_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				До поездки на Кипр, я почему-то думал, что столица Кипра — Ларнака. А оказалось, что Никосия. Наши местные друзья сказали, что в Никосии делать нечего. Но интересно, что Никосия — единственный в мире разделённый главный город, являющийся столицей Республика Кипра и псевдогосударства ТРСК (Турецкой Республики Северного Кипра). Еще интересно, что у киприотов другое ощущение расстояний. Например, есть жители Никосии, которые никогда не ездили в Пафос (150км), так как это считается очёнь далеко. 
+<br><br>
+Ладно, про Ларнаку.
+<br><br>
+Набережная красит любой город, особенно если она сделала правильно. В Ларнаке есть отличная <em data-place-ndx="4">набережная Финикудес</em> возле одноимённого пляжа. Мы по ней погулять, увы, не успели.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3417" style="max-width: px;">					
+			
+			
+			<div class="images group" style="padding-bottom: 75.0%">
+				
+
+				
+						<div class="arrow left glyphicon"><div class="left-arrow-content"></div></div>
+						<div class="arrow right glyphicon"><div class="right-arrow-content"></div></div>
+				
+
+				<img id="photo_3417" data-photo-id="3417" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661273141_ae84b10112_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661273141_ae84b10112_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+					
+						
+						
+						<img data-width="1024" data-height="768" id="photo_3394" data-photo-id="3394" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842865210_8049bf0668_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842865210_8049bf0668_b.jpg" class="lazy " data-action="zoom" />
+									
+				
+			</div>
+
+			
+				<div class="thumbnails">
+										
+					<div id="thumb_3417" data-photo-id="3417" class="dot current"></div>
+										
+					<div id="thumb_3394" data-photo-id="3394" class="dot"></div>
+								
+				</div>
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=34.909302, 33.639288&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				Гагарин. Мелочь, а приятно.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3451" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3451" data-photo-id="3451" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661234631_65cd985b13_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661234631_65cd985b13_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=34.987647, 33.993838&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					По острову мы катались на арендованной машине Nissan Note с автоматической коробкой передач. Немного стрёмно было мне впервые участвовать в левостороннем движении, словами это трудно передать. Борьба разума и рефлексов. В целом, движение довольно спокойное и безопасное. Хоть на фото не видно, на всех арендованных машинах красные номера. Так что лошара лошару видит издалека.
+<br><br>
+На пути назад мы припарковались на дороге и побежали со всей нашей техникой на берег соляного озера Ларнаки, чтобы запечатлеть всё и сверху и снизу. <em data-place-ndx="5">Соляное озеро Ларнаки</em> считается одной из главных достопримечательностей города.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720335727_873e60c9a6_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720335727_873e60c9a6_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788512558_c316cdf976_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788512558_c316cdf976_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				Вид и мастшаб озера не передать. Казалось бы — ничего особенного, ну озеро, ну подумаешь, соль. А вот атмосфера какая-то волшебная, особенно на закате. Рядом с озермо есть мечеть Хала Султан Текке, я был уже готов взлететь и отфоткать всё красиво сверху, но дружок с пропеллерами отказался летать, аэропорт рядом, видите ли. Нет кнопки "я знаю, игнорировать и взлететь", видите ли. Безопасность, понимаете ли.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper hero" data-id="3385" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 34.765625%">
+				
+
+				
+
+				<img id="photo_3385" data-photo-id="3385" data-width="1024" data-height="356" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720329867_58d4890afa_h.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720329867_58d4890afa_h.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=34.888450, 33.627019&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					Всем рекомендуем посетить соляное озеро! Только вот у меня проблемка была, я в шлёпках пошёл, а до этого ими натёр пару мазолей. Короче, это очень больно было, не совершайте моих ошибок. Третья фотка — про боль.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661269911_4e015796e4_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661269911_4e015796e4_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720252087_740d321fa7_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720252087_740d321fa7_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610510262_4bc32cbfcb_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610510262_4bc32cbfcb_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					<h3>Айия-Напа</h3>
+
+Наша поездка номер два была в город Айия-Напа. Мы туда и всем семейством ездили просто покушать, а поисследовать поехали вдвоём. По пути посетили "<em data-place-ndx="6">мост влюбленных</em>". Очередная природная арка, в этот раз довольно красивая.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720331457_61303e76bd_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720331457_61303e76bd_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720320287_5f1b447d81_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720320287_5f1b447d81_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661263751_484dba0425_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661263751_484dba0425_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				Сама <em data-place-ndx="7">Айия-Напа</em> это просто беда какая-то. Город, из которого туризм вырвал весь характер, если он когда-либо в нём был.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3374" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 66.69921875%">
+				
+
+				
+
+				<img id="photo_3374" data-photo-id="3374" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746737985_3f32026409_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746737985_3f32026409_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=34.988255, 34.000222&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720296757_f530236377_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720296757_f530236377_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.3333333333333333">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 75.0%">						
+							<img class="lazy" style="position: absolute" width="1024" height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936213614_98ac55c10d_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936213614_98ac55c10d_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				Кафешки , сувениры, рестораны, универмаги. Обычный киприот сюда бы вряд ли поехал гулять и отдыхать, уж в центр так точно. Место прекрасное для туристов и ужасное для путешественников. Скорее бы люди перестали покупать магнитики и майки с местами городов, где они были. Жизнь бы стала лучше, я думаю.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3392" style="max-width: px;">					
+			
+			
+			<div class="images group" style="padding-bottom: 66.69921875%">
+				
+
+				
+						<div class="arrow left glyphicon"><div class="left-arrow-content"></div></div>
+						<div class="arrow right glyphicon"><div class="right-arrow-content"></div></div>
+				
+
+				<img id="photo_3392" data-photo-id="3392" data-width="1024" data-height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720314667_3d0755666c_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720314667_3d0755666c_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+					
+						
+						
+						<img data-width="1024" data-height="683" id="photo_3383" data-photo-id="3383" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720333777_f81612ef1c_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720333777_f81612ef1c_b.jpg" class="lazy " data-action="zoom" />
+									
+				
+			</div>
+
+			
+				<div class="thumbnails">
+										
+					<div id="thumb_3392" data-photo-id="3392" class="dot current"></div>
+										
+					<div id="thumb_3383" data-photo-id="3383" class="dot"></div>
+								
+				</div>
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=34.986644, 33.997952&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+
+		
+			<div class="journal_photo_description" >
+				<h3>Лимассол</h3>
+Ну и наша третья вылазка с Ксюшей была в город <em data-place-ndx="8">Лимассол</em>. Лимассол — второй по величине город Кипра, после столицы.
+В этом городе мы посетили только <em data-place-ndx="9">парк Молос</em>, который находится на набережной. Пожалуй, это самое прикольное, необычное и приятное место для прогулок, которое нам удалось посетить в этой поездке.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3386" style="max-width: px;">					
+			
+			
+			<div class="images group" style="padding-bottom: 75.0%">
+				
+
+				
+						<div class="arrow left glyphicon"><div class="left-arrow-content"></div></div>
+						<div class="arrow right glyphicon"><div class="right-arrow-content"></div></div>
+				
+
+				<img id="photo_3386" data-photo-id="3386" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746724295_170a0c397c_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746724295_170a0c397c_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+					
+						
+						
+						<img data-width="1024" data-height="768" id="photo_3368" data-photo-id="3368" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842889240_c746fe5cbd_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842889240_c746fe5cbd_b.jpg" class="lazy " data-action="zoom" />
+					
+						
+						
+						<img data-width="1024" data-height="768" id="photo_3387" data-photo-id="3387" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720325157_cbdda92920_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720325157_cbdda92920_b.jpg" class="lazy " data-action="zoom" />
+									
+				
+			</div>
+
+			
+				<div class="thumbnails">
+										
+					<div id="thumb_3386" data-photo-id="3386" class="dot current"></div>
+										
+					<div id="thumb_3368" data-photo-id="3368" class="dot"></div>
+										
+					<div id="thumb_3387" data-photo-id="3387" class="dot"></div>
+								
+				</div>
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=34.673833, 33.047147&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					Большим этот парк не назовёшь, но количество полезняков на 1 квадратный метр тут очень высокое, поэтому этот парк точно можно назвать "богатым" в плане развлечений. И тут всё какое-то уютное, непропитанное духов дешёвого туристического ширпотреба, как вся Айиа-Напа. Если бы волшебный джин дал мне один час времени на телепорт в любое место на Кипре, я бы махнул в этот парк.<br><br>Классная бабулька делает волшебную кукурузу особым методом.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842862580_238da38955_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/43842862580_238da38955_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720301837_341cff0626_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/30720301837_341cff0626_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+				<div class="journal_photo_description" >
+					Атмосфера тут действительно прекрасная.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661279131_7749a50c13_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661279131_7749a50c13_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746692175_8cc4696e75_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44746692175_8cc4696e75_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661261291_59e45a14c6_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661261291_59e45a14c6_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788510038_472152b9dd_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/31788510038_472152b9dd_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661250281_08885758b0_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661250281_08885758b0_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661248421_5e487e9bb2_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661248421_5e487e9bb2_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936219194_52f4a570fb_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936219194_52f4a570fb_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				Ах да, еще один момент. Есть такой пляж <em data-place-ndx="10">Нисси Бич</em>. Один из самых популярных пляжей на Кипре, в основном из-за прикольного песочного рельефа и развлечений, которые он предлагает. Этот пляж находился неподалёку от пляжа Макронис, возле которого мы проживали. Но дойти до него всё же было далековато, а доехать как-то не собрались, поэтому я просто долетел туда на дроне, сделал пару фотографий и назад.
+			</div>
+			
+		
+		
+		
+		<div class="img-wrapper medium" data-id="3447" style="max-width: px;">					
+			
+			
+			<div class="images " style="padding-bottom: 75.0%">
+				
+
+				
+
+				<img id="photo_3447" data-photo-id="3447" data-width="1024" data-height="768" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661237911_bdebd9a709_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45661237911_bdebd9a709_b.jpg" class="lazy current" data-action="zoom" />	
+
+				
+			</div>
+
+			
+
+
+				
+		
+				<span class="glyphicon glyphicon-map-marker pull-right map-icon"></span>				
+
+				<div class="map" style="display: none;">
+					&lt;iframe
+					  width=&quot;600&quot;
+					  height=&quot;450&quot;
+					  frameborder=&quot;0&quot; style=&quot;border:0&quot;
+					  src=&quot;https://www.google.com/maps/embed/v1/place?key=AIzaSyBlMBHldlAq0boRfBqt9QgtIn56ZVneOn8&amp;q=34.985530, 33.968202&quot; allowfullscreen&gt;
+					&lt;/iframe&gt;
+				</div>
+
+				<div class="map-loading-message" style="display: none">
+					<div class="inner" style="">Ждём карту Гугл!</div>
+				</div>
+			 
+		</div>
+		
+		
+		
+				
+		
+
+		
+			
+				<div class="journal_photo_description" >
+					<h3>Концовочка</h3>
+Ну вот и всё, ребята. Кипр нам понравился. Здесь волшебный климат, неспешная жизнь, доброй народ. <br> Мы не успели посмотреть всё, что запланировали. Город Пафос. Горы Тродос. Античный город Курион. Думаю, когда-нибудь мы с радостью вернёмся на Кипр, возьмём отель где-нибудь возле Пафоса, чтобы исследовать западную часть острова.<br><br>
+А еще, хотим сказать спасибо бабушке Лене и Ане за весёлую компанию и огромную помощь в поездке с нашим юнцом.
+				</div>				
+			
+
+			<div class="img-row" >
+				
+
+			    
+					<div class="img-container" style="flex: 0.6669921875">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 149.9267935578331%">						
+							<img class="lazy" style="position: absolute" width="683" height="1024" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936249194_f6d3a21379_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/44936249194_f6d3a21379_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+					<div class="img-container" style="flex: 1.499267935578331">
+						<div class="row-img-wrapper" style="position: relative; padding-bottom: 66.69921875%">						
+							<img class="lazy" style="position: absolute" width="1024" height="683" src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610473162_46c57a37f3_b.jpg" data-src="https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/cyprus/45610473162_46c57a37f3_b.jpg" data-action="zoom">
+						</div>
+					</div>
+					
+						
+				
+			</div>
+		
+
+		
+			<div class="journal_photo_description" >
+				П.С. Обязательно посмотрите наш видео-влог с Кипра, иначе получится, что мы зря его делали:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/APM31Boqdt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+			</div>
+			
+		
+		
+		
+		
+		
+	
+
+	<div class="post-scriptum">
+		
+
+		<div class="journal_photo">			
+			<div class="journal_photo_description">
+				П.С. Возможно, вам будет также интересно прочитать наш другой фото-отчёт <a href="/travel/copenhagen">Копенгаген</a>!
+			</div>			
+			
+			<a href="/travel/copenhagen"><img src="/img/covers/copenhagen.jpg" class="img-responsive" /></a>			
+		</div>			
+	</div>	
+
+	<div id="disqus_thread"></div>
+<script>
+	var disqus_config = function () {
+	    this.page.url = 'http://www.zavalny.com/travel/cyprus'; 
+	    this.page.identifier = 'cyprus';
+	};
+
+	window.onload = function() {
+		(function() { // DON'T EDIT BELOW THIS LINE
+		    var d = document, s = d.createElement('script');
+		    s.src = '//zavalny.disqus.com/embed.js';
+		    s.setAttribute('data-timestamp', +new Date());
+		    (d.head || d.body).appendChild(s);
+		})();
+	};
+</script>
+</div>	
+	
+
+
+      
+     <script src="/assets/app-2fd58e8c6960cbfaa0aeae3cb276fd8b21fa9355d8de32f7799b29af0b63996f.js" async></script>
+
+    
+
+    <script id="dsq-count-scr" src="//zavalny.disqus.com/count.js" async></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62303886-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </body>
+</html>
