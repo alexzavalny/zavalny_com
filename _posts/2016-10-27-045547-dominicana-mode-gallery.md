@@ -4,6 +4,7 @@ title: "Доминикана"
 date: 2016-10-27 00:00:00 +0000
 categories: travel
 slug: "dominicana-mode-gallery"
+published: false
 archive_url: "https://web.archive.org/web/20161027045547/http://www.zavalny.com:80/travel/dominicana?mode=gallery"
 original_url: "http://www.zavalny.com:80/travel/dominicana?mode=gallery"
 ---
