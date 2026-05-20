@@ -9,8 +9,6 @@ archive_url: "https://web.archive.org/web/20161027022050/http://www.zavalny.com:
 original_url: "http://www.zavalny.com:80/travel/hong-kong?mode=journal"
 ---
 
-> Восстановлено из [снимка Web Archive](https://web.archive.org/web/20161027022050/http://www.zavalny.com:80/travel/hong-kong?mode=journal) от 2016-10-27.
-
 Да! Мы посетили Гонконг! Сразу к раскрытию секрета. Удалось нам это благодаря сайту TravelFree.info – там мы приобрели крайне выгодные билеты из Риги в Гонконг через Стамбул. Обошлось всё это в 850 евро на двоих в обе стороны, что не так страшно для такого дальнего перелёта. 
 Гонконг прекрасен.
 

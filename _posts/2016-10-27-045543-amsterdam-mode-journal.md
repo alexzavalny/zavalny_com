@@ -9,8 +9,6 @@ archive_url: "https://web.archive.org/web/20161027045543/http://www.zavalny.com:
 original_url: "http://www.zavalny.com:80/travel/amsterdam?mode=journal"
 ---
 
-> Восстановлено из [снимка Web Archive](https://web.archive.org/web/20161027045543/http://www.zavalny.com:80/travel/amsterdam?mode=journal) от 2016-10-27.
-
 На площади возле главного вокзала мы нашли первый (но не единственный) знак "I amsterdam"
 
 ![На площади возле главного вокзала мы нашли первый (но не единственный) знак "I a](https://filedn.com/lVf3Vv8t6I3bfGwgdkdRRD4/zavalny_com/amsterdam/16951394499_38e117055a_b.jpg)

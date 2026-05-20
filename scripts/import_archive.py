@@ -191,7 +191,7 @@ for ts, orig, code, mt, digest in rows:
     body = re.sub(r"\n{3,}", "\n\n", body).strip()
     body = re.sub(rf"^/?\s*{re.escape(title)}\s*\n", "", body).strip()
     date = f"{ts[:4]}-{ts[4:6]}-{ts[6:8]}"
-    md = f"---\nlayout: post\ntitle: {markdown_escape_yaml(title)}\ndate: {date} 00:00:00 +0000\ncategories: travel\nslug: {markdown_escape_yaml(slug)}\narchive_url: {markdown_escape_yaml(archive_url)}\noriginal_url: {markdown_escape_yaml(orig)}\n---\n\n> Восстановлено из [снимка Web Archive]({archive_url}) от {date}.\n\n{body}\n"
+    md = f"---\nlayout: post\ntitle: {markdown_escape_yaml(title)}\ndate: {date} 00:00:00 +0000\ncategories: travel\nslug: {markdown_escape_yaml(slug)}\narchive_url: {markdown_escape_yaml(archive_url)}\noriginal_url: {markdown_escape_yaml(orig)}\n---\n\n{body}\n"
     # Avoid duplicate dates filenames by adding timestamp
     out = POSTS / f"{date}-{ts[8:]}-{slug}.md"
     out.write_text(md, encoding="utf-8")

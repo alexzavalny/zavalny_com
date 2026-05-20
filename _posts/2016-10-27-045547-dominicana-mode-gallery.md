@@ -9,8 +9,6 @@ archive_url: "https://web.archive.org/web/20161027045547/http://www.zavalny.com:
 original_url: "http://www.zavalny.com:80/travel/dominicana?mode=gallery"
 ---
 
-> Восстановлено из [снимка Web Archive](https://web.archive.org/web/20161027045547/http://www.zavalny.com:80/travel/dominicana?mode=gallery) от 2016-10-27.
-
 / Путешествия 
 / Доминикана
 Читать фото-отчёт 
