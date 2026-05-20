@@ -57,25 +57,72 @@ def pcloud_dir(slug):
     return re.sub(r"-mode-(journal|gallery)$", "", slug)
 
 def markdown_from_journal(doc, slug):
+    """Extract old zavalny.com journal photos.
+
+    The archived site used several templates:
+    - older pages: many <div class="journal_photo"> blocks with Flickr data-original
+    - newer pages: one .container.journal with journal_photo_description + img rows
+    - newer pCloud mirror pages: data-src/src already points at filedn.com
+    """
+    try:
+        from bs4 import BeautifulSoup, Tag
+    except Exception:
+        BeautifulSoup = None
+        Tag = None
+
+    def photo_url(raw_url):
+        if not raw_url or raw_url.startswith("data:"):
+            return None
+        raw_url = raw_url.split("?")[0]
+        if not re.search(r"\.(?:jpg|jpeg|png)$", raw_url, re.I):
+            return None
+        if "/covers/" in raw_url:
+            return None
+        if "filedn.com" in raw_url:
+            return raw_url
+        filename = raw_url.rsplit("/", 1)[-1]
+        return f"{PCLOUD_BASE}/{pcloud_dir(slug)}/{filename}"
+
+    if BeautifulSoup:
+        soup = BeautifulSoup(doc, "html.parser")
+        jps = soup.select("div.journal_photo")
+        containers = jps if len(jps) > 2 else (soup.select(".container.journal") or jps)
+        parts, seen, current_desc = [], set(), ""
+        for cont in containers:
+            children = [c for c in cont.children if isinstance(c, Tag)] if cont.select_one(".journal_photo_description") else [cont]
+            for child in children:
+                classes = child.get("class") or []
+                if "journal_photo_description" in classes:
+                    current_desc = text_from_html(str(child))
+                    if current_desc:
+                        parts.append(current_desc)
+                    continue
+                for img in child.find_all("img"):
+                    for attr in ("data-src", "data-original", "src"):
+                        url = photo_url(img.get(attr))
+                        if not url or url in seen:
+                            continue
+                        seen.add(url)
+                        alt = current_desc[:80] if current_desc else url.rsplit("/", 1)[-1]
+                        parts.append(f"![{alt}]({url})")
+        if seen:
+            return "\n\n".join(parts).strip()
+
     blocks = re.findall(r'(?is)<div class="journal_photo"[^>]*>(.*?)(?=<div class="journal_photo"|</body>)', doc)
-    if not blocks:
-        return ""
     parts = []
-    folder = pcloud_dir(slug)
-    # Covers are not guaranteed to exist in the pCloud mirror; keep the in-article photos only.
     for block in blocks:
         dm = re.search(r'(?is)<div class="journal_photo_description"[^>]*>(.*?)</div>', block)
         desc = text_from_html(dm.group(1)) if dm else ""
-        imgs = []
-        for m in re.finditer(r'data-original="([^"]+?/(?:[^/"?#]+\.(?:jpg|jpeg|png)))"', block, re.I):
-            filename = m.group(1).split('/')[-1]
-            if filename not in imgs:
-                imgs.append(filename)
+        urls = []
+        for m in re.finditer(r'(?:data-src|data-original|src)="([^"]+?/(?:[^/"?#]+\.(?:jpg|jpeg|png)))"', block, re.I):
+            url = photo_url(m.group(1))
+            if url and url not in urls:
+                urls.append(url)
         if desc:
             parts.append(desc)
-        for fn in imgs:
-            alt = desc[:80] if desc else fn
-            parts.append(f"![{alt}]({PCLOUD_BASE}/{folder}/{fn})")
+        for url in urls:
+            alt = desc[:80] if desc else url.rsplit("/", 1)[-1]
+            parts.append(f"![{alt}]({url})")
     return "\n\n".join(parts).strip()
 
 def main_content(doc, slug):

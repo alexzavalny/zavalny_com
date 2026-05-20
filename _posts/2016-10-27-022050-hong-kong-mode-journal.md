@@ -4,6 +4,7 @@ title: "Гонконг"
 date: 2016-10-27 00:00:00 +0000
 categories: travel
 slug: "hong-kong-mode-journal"
+published: false
 archive_url: "https://web.archive.org/web/20161027022050/http://www.zavalny.com:80/travel/hong-kong?mode=journal"
 original_url: "http://www.zavalny.com:80/travel/hong-kong?mode=journal"
 ---
