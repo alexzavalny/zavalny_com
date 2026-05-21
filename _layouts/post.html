@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'ru' }}">
+  {%- include head.html -%}
+  <body>
+    <div class="page" data-screen-label="Article">
+      {%- assign travel_posts = site.posts | where_exp: "p", "p.categories contains 'travel'" -%}
+      {%- assign travel_posts_sorted = travel_posts | sort: "date" -%}
+      {%- assign chapter_num = nil -%}
+      {%- for p in travel_posts_sorted -%}
+        {%- if p.url == page.url -%}
+          {%- assign chapter_num = forloop.index -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      <header class="masthead">
+        <div class="left reveal">
+          <span>{% if chapter_num %}Глава № {{ chapter_num }}{% else %}Путешествия{% endif %}</span>
+          <span>{{ page.date | date: "%Y" }}</span>
+          <span>{{ page.title }}</span>
+        </div>
+        <a href="{{ '/' | relative_url }}" class="wordmark reveal" style="text-decoration:none;">zavalny<span class="dot">.</span>com</a>
+        <div class="right reveal">
+          <span>← <a href="{{ '/travel/' | relative_url }}" class="link">К содержанию</a></span>
+          <span>{{ page.content | number_of_words }} слов</span>
+          <span>~ {{ page.content | number_of_words | divided_by: 180 | plus: 1 }} минут</span>
+        </div>
+      </header>
+
+      {%- include nav.html -%}
+
+      <article>
+        <header class="article-hero">
+          <div class="tag a-kicker reveal">Путешествия · {{ page.date | date: "%B %Y" }}</div>
+          <h1 class="split-line">{{ page.title }}</h1>
+          {%- if page.excerpt -%}
+            <p class="a-stand reveal">{{ page.excerpt | strip_html | strip_newlines }}</p>
+          {%- endif -%}
+        </header>
+
+        <div class="article-body">
+          {{ content }}
+          <div class="article-end reveal">· · ·</div>
+        </div>
+      </article>
+
+      {%- if page.previous or page.next -%}
+        <nav class="article-next reveal">
+          {%- if page.previous -%}
+            <a href="{{ page.previous.url | relative_url }}">
+              <span class="tag">← Предыдущая глава</span>
+              <span class="ttl">{{ page.previous.title }}</span>
+              <span class="tag" style="color:var(--muted);">{{ page.previous.date | date: "%Y.%m.%d" }}</span>
+            </a>
+          {%- else -%}
+            <span></span>
+          {%- endif -%}
+          {%- if page.next -%}
+            <a href="{{ page.next.url | relative_url }}">
+              <span class="tag">Следующая глава →</span>
+              <span class="ttl">{{ page.next.title }}</span>
+              <span class="tag" style="color:var(--muted);">{{ page.next.date | date: "%Y.%m.%d" }}</span>
+            </a>
+          {%- else -%}
+            <span></span>
+          {%- endif -%}
+        </nav>
+      {%- endif -%}
+
+      {%- include footer.html -%}
+    </div>
+    <script src="{{ '/assets/reveal.js?v=20260521-1' | relative_url }}"></script>
+  </body>
+</html>
+

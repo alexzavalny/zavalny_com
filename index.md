@@ -1,34 +1,132 @@
 ---
 layout: default
 title: Архив путешествий
+masthead_left:
+  - "Выпуск № XII · 2026"
+  - "Том первый"
+  - "Рига · Латвия"
 ---
 
-<section class="hero">
-  <h1>Архив путешествий zavalny.com</h1>
-  <p>Семейные поездки, города, отели и пляжи — аккуратно восстановленный фотоархив старого zavalny.com.</p>
-  <a class="cta" href="{{ '/travel/' | relative_url }}">Смотреть путешествия →</a>
-  <a class="cta cta--light" href="{{ '/movies/' | relative_url }}">Фильмы →</a>
-  <a class="cta cta--light" href="{{ '/chess/' | relative_url }}">Шахматы →</a>
+{% assign travel_posts = site.posts | where_exp: "p", "p.categories contains 'travel'" | sort: "date" | reverse %}
+{% assign travel_posts_asc = site.posts | where_exp: "p", "p.categories contains 'travel'" | sort: "date" %}
+{% assign featured = travel_posts.first %}
+{% assign first_year = travel_posts_asc.first.date | date: "%Y" | plus: 0 %}
+{% assign last_year = travel_posts.first.date | date: "%Y" | plus: 0 %}
+{% assign years_span = last_year | minus: first_year | plus: 1 %}
+
+<section class="cover">
+  <div class="issue tag reveal">
+    <span class="dash"></span>
+    <span>Архив одной жизни</span>
+    <span class="dash"></span>
+  </div>
+  <h1 class="cover-title split-line">Архив <em>путешествий</em></h1>
+  <p class="cover-standfirst reveal">
+    Семейные поездки, города, отели и пляжи — аккуратно восстановленный архив старого zavalny.com.
+  </p>
+  <div class="cover-meta tag">
+    <span class="reveal"><strong>{{ travel_posts | size }}</strong>записей</span>
+    <span class="reveal"><strong>{{ years_span }}</strong>лет</span>
+    <span class="reveal"><strong>{{ first_year }}</strong>→ {{ last_year }}</span>
+    <span class="reveal"><strong>RU</strong>язык</span>
+  </div>
 </section>
 
-<h2>Последние путешествия</h2>
+<section class="section">
+  <div class="section-head reveal">
+    <div class="num">№ 01</div>
+    <h2>В этом выпуске</h2>
+    <div class="meta tag">Главная история</div>
+  </div>
 
-<div class="travel-grid">
-{% assign travel_posts = site.posts | where_exp: "post", "post.categories contains 'travel'" | slice: 0, 9 %}
-{% for post in travel_posts %}
-  {% assign image = nil %}
-  {% assign chunks = post.content | split: '<img src="' %}
-  {% if chunks.size > 1 %}
-    {% assign image = chunks[1] | split: '"' | first %}
-  {% endif %}
-  <article class="travel-card">
-    <a href="{{ post.url | relative_url }}">
-      {% if image %}<img class="travel-card__image" src="{{ image }}" alt="{{ post.title | escape }}" loading="lazy">{% endif %}
-      <div class="travel-card__body">
-        <span class="travel-card__title">{{ post.title }}</span>
-        <span class="travel-card__date">{{ post.date | date: "%Y" }}</span>
+  {% if featured %}
+    {% assign feature_image = nil %}
+    {% assign md_img_chunks = featured.content | split: '](' %}
+    {% if md_img_chunks.size > 1 %}
+      {% assign feature_image = md_img_chunks[1] | split: ')' | first %}
+    {% endif %}
+    <div class="feature">
+      <div class="reveal">
+        <div class="tag f-kicker">{{ featured.date | date: "%B %Y" }}</div>
+        <h3 class="f-title">{{ featured.title }}</h3>
+        <p class="f-stand">{{ featured.excerpt | strip_html | strip_newlines }}</p>
+        <div class="f-byline tag">
+          <a href="{{ featured.url | relative_url }}" class="link">Читать историю →</a>
+        </div>
       </div>
+      <div class="f-image reveal">
+        {% if feature_image %}
+          <img src="{{ feature_image }}" alt="{{ featured.title | escape }}" loading="lazy">
+        {% endif %}
+        <div class="f-caption">Plate 01 · {{ featured.date | date: "%Y" }}</div>
+      </div>
+    </div>
+  {% endif %}
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <div class="num">№ 02</div>
+    <h2>Содержание</h2>
+    <div class="meta tag">Все главы · {{ travel_posts | size }}</div>
+  </div>
+
+  <div class="contents">
+    {% assign current_year = nil %}
+    {% for post in travel_posts %}
+      {% assign year = post.date | date: "%Y" %}
+      {% if year != current_year %}
+        {% assign current_year = year %}
+        <div class="entry reveal" style="grid-template-columns: 56px 1fr; border-bottom-color: var(--rule-strong); padding-top: 20px;">
+          <div class="e-num">YR.</div>
+          <div style="font-family:'Spectral',serif;font-size:1.1rem;font-style:italic;color:var(--muted);font-weight:300;">{{ current_year }}</div>
+        </div>
+      {% endif %}
+
+      {% assign image = nil %}
+      {% assign chunks = post.content | split: '](' %}
+      {% if chunks.size > 1 %}
+        {% assign image = chunks[1] | split: ')' | first %}
+      {% endif %}
+
+      <a href="{{ post.url | relative_url }}" class="entry reveal">
+        <span class="e-num">{{ forloop.index | prepend: "0" | slice: -2, 2 }}.</span>
+        <span class="e-title">{{ post.title }}</span>
+        <span class="e-place">Путешествия</span>
+        <span class="e-year">{{ post.date | date: "%Y.%m.%d" }}</span>
+        <span class="e-thumb {% unless image %}placeholder{% endunless %}">
+          {% if image %}<img src="{{ image }}" alt="" loading="lazy">{% endif %}
+        </span>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section" style="padding-top: 56px;">
+  <div class="section-head reveal">
+    <div class="num">№ 03</div>
+    <h2>Разделы</h2>
+    <div class="meta tag">остальное</div>
+  </div>
+
+  <div class="depts">
+    <a class="dept reveal" href="{{ '/travel/' | relative_url }}">
+      <div class="tag d-tag">Раздел II</div>
+      <div class="d-title">Путе<em>шествия</em></div>
+      <div class="d-desc">Полный архив фотоотчётов по годам.</div>
+      <div class="d-more">Открыть →</div>
     </a>
-  </article>
-{% endfor %}
-</div>
+    <a class="dept reveal" href="{{ '/movies/' | relative_url }}">
+      <div class="tag d-tag">Раздел III</div>
+      <div class="d-title">Фильмы <em>из Obsidian</em></div>
+      <div class="d-desc">Личная подборка без оценок — просто список.</div>
+      <div class="d-more">Открыть →</div>
+    </a>
+    <a class="dept reveal" href="{{ '/chess/' | relative_url }}">
+      <div class="tag d-tag">Раздел IV</div>
+      <div class="d-title">Шахматы <em>и рейтинг</em></div>
+      <div class="d-desc">Профили, статусы и заметки про игру.</div>
+      <div class="d-more">Открыть →</div>
+    </a>
+  </div>
+</section>

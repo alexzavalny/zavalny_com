@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'ru' }}">
+  {%- include head.html -%}
+  <body>
+    <div class="page" data-screen-label="{{ page.title | escape }}">
+      {%- include masthead.html -%}
+      {%- include nav.html -%}
+
+      {{ content }}
+
+      {%- include footer.html -%}
+    </div>
+    <script src="{{ '/assets/reveal.js?v=20260521-1' | relative_url }}"></script>
+  </body>
+</html>
+

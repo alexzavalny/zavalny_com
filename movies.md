@@ -1,13 +1,34 @@
 ---
-layout: page
+layout: default
 title: Фильмы
 permalink: /movies/
+masthead_left:
+  - "Раздел III"
+  - "Фильмы"
+  - "Личная подборка"
+masthead_right:
+  - "из Obsidian"
+  - "обновляется"
 ---
 
-<section class="hero movies-hero">
-  <h1>Фильмы, которые хочется пересматривать</h1>
-  <p>Личная подборка из Obsidian-заметки «Супер фильмы которые хочется пересматривать».</p>
+<section class="page-hero">
+  <div class="h-left">
+    <span class="tag reveal">Раздел III · Кино</span>
+    <h1 class="split-line">Хочется <em>пересматривать</em></h1>
+  </div>
+  <div class="h-right reveal">
+    <p class="h-stand">
+      Личная подборка из обсидиановой заметки «Супер фильмы которые хочется пересматривать». Без рецензий и оценок — просто список, к которому я возвращаюсь.
+    </p>
+  </div>
 </section>
+
+<section class="section reveal" style="padding-top: 56px; padding-bottom: 0;">
+  <div class="section-head">
+    <div class="num">№ 01</div>
+    <h2>Полный список</h2>
+    <div class="meta tag">пока без сортировки</div>
+  </div>
 
 <div class="movie-grid">
   <article class="movie-card">
@@ -335,3 +356,5 @@ permalink: /movies/
     </div>
   </article>
 </div>
+
+</section>

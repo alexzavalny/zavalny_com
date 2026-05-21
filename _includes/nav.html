@@ -1,0 +1,9 @@
+{%- assign url = page.url | default: "/" -%}
+<nav class="nav reveal">
+  <a href="{{ '/' | relative_url }}" class="{% if url == '/' %}active{% endif %}">Архив</a>
+  <a href="{{ '/travel/' | relative_url }}" class="{% if url contains '/travel' %}active{% endif %}">Путешествия</a>
+  <a href="{{ '/movies/' | relative_url }}" class="{% if url contains '/movies' %}active{% endif %}">Фильмы</a>
+  <a href="{{ '/chess/' | relative_url }}" class="{% if url contains '/chess' %}active{% endif %}">Шахматы</a>
+  <a href="{{ '/cv/' | relative_url }}" class="{% if url contains '/cv' %}active{% endif %}">Резюме</a>
+</nav>
+

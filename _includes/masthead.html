@@ -1,0 +1,30 @@
+<header class="masthead">
+  <div class="left reveal">
+    {%- if page.masthead_left -%}
+      {%- for line in page.masthead_left -%}
+        <span>{{ line }}</span>
+      {%- endfor -%}
+    {%- else -%}
+      <span>{{ site.title }}</span>
+      <span>{{ site.description }}</span>
+      <span>{{ site.time | date: "%Y.%m.%d" }}</span>
+    {%- endif -%}
+  </div>
+
+  <a href="{{ '/' | relative_url }}" class="wordmark reveal" style="text-decoration:none;">
+    zavalny<span class="dot">.</span>com
+  </a>
+
+  <div class="right reveal">
+    {%- if page.masthead_right -%}
+      {%- for line in page.masthead_right -%}
+        <span>{{ line }}</span>
+      {%- endfor -%}
+    {%- else -%}
+      <span>{{ site.time | date: "%Y.%m.%d" }}</span>
+      <span>{{ site.posts | size }} записей</span>
+      <span>Архив</span>
+    {%- endif -%}
+  </div>
+</header>
+

@@ -2,6 +2,14 @@
 layout: default
 title: CV
 permalink: /cv/
+masthead_left:
+  - "Раздел V"
+  - "Резюме"
+  - "2026.05.21"
+masthead_right:
+  - "alex@zavalny.com"
+  - "Senior Ruby Developer"
+  - "Рига · Латвия"
 ---
 
 <section class="cv-hero">

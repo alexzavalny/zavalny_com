@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<section class="page-hero">
+  <div class="h-left">
+    <span class="tag reveal">{{ page.hero_tag | default: page.title }}</span>
+    <h1 class="split-line">{{ page.hero_title | default: page.title }}</h1>
+  </div>
+  <div class="h-right reveal">
+    {%- if page.hero_standfirst -%}
+      <p class="h-stand">{{ page.hero_standfirst }}</p>
+    {%- endif -%}
+    {%- if page.hero_figures -%}
+      <div class="h-figures">
+        {%- for fig in page.hero_figures -%}
+          <div class="fig"><strong>{{ fig.value }}</strong><span class="tag">{{ fig.label }}</span></div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+<section class="section">
+  {{ content }}
+</section>
+
