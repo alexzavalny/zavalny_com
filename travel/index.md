@@ -39,9 +39,9 @@ masthead_right:
     <div class="y-mark">{{ group.name }}<small>{{ group.items | size }} записей</small></div>
     <div class="contents">
       {% for post in group.items %}
-        {% assign image = nil %}
+        {% assign image = post.hero_image %}
         {% assign chunks = post.content | split: '](' %}
-        {% if chunks.size > 1 %}
+        {% if image == nil and chunks.size > 1 %}
           {% assign image = chunks[1] | split: ')' | first %}
         {% endif %}
         <a href="{{ post.url | relative_url }}" class="entry">

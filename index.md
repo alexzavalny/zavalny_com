@@ -40,9 +40,9 @@ masthead_left:
   </div>
 
   {% if featured %}
-    {% assign feature_image = nil %}
+    {% assign feature_image = featured.hero_image %}
     {% assign md_img_chunks = featured.content | split: '](' %}
-    {% if md_img_chunks.size > 1 %}
+    {% if feature_image == nil and md_img_chunks.size > 1 %}
       {% assign feature_image = md_img_chunks[1] | split: ')' | first %}
     {% endif %}
     <div class="feature">
@@ -74,9 +74,9 @@ masthead_left:
   <div class="travel-cards">
     {% assign latest = travel_posts | slice: 0, 6 %}
     {% for post in latest %}
-      {% assign image = nil %}
+      {% assign image = post.hero_image %}
       {% assign chunks = post.content | split: '](' %}
-      {% if chunks.size > 1 %}
+      {% if image == nil and chunks.size > 1 %}
         {% assign image = chunks[1] | split: ')' | first %}
       {% endif %}
       <a class="tcard reveal" href="{{ post.url | relative_url }}">

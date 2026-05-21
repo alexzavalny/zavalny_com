@@ -35,6 +35,11 @@
           {%- if page.excerpt -%}
             <p class="a-stand reveal">{{ page.excerpt | strip_html | strip_newlines }}</p>
           {%- endif -%}
+          {%- if page.hero_image -%}
+            <figure class="a-hero-image reveal">
+              <img src="{{ page.hero_image | relative_url }}" alt="{{ page.title | escape }}" loading="eager">
+            </figure>
+          {%- endif -%}
         </header>
 
         <div class="article-body">
