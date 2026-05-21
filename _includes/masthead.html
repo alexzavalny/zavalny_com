@@ -21,10 +21,10 @@
         <span>{{ line }}</span>
       {%- endfor -%}
     {%- else -%}
+      {%- assign travel_count = site.posts | where_exp: "p", "p.categories contains 'travel'" | size -%}
       <span>{{ site.time | date: "%Y.%m.%d" }}</span>
-      <span>{{ site.posts | size }} записей</span>
-      <span>Архив</span>
+      <span>{{ travel_count }} поездок</span>
+      <span>Главная</span>
     {%- endif -%}
   </div>
 </header>
-

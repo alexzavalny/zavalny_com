@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Архив путешествий
+title: Главная
 masthead_left:
   - "Выпуск № XII · 2026"
   - "Том первый"
@@ -20,23 +20,23 @@ masthead_left:
     <span>Архив одной жизни</span>
     <span class="dash"></span>
   </div>
-  <h1 class="cover-title split-line">Архив <em>путешествий</em></h1>
+  <h1 class="cover-title split-line">zavalny<em>.com</em></h1>
   <p class="cover-standfirst reveal">
-    Семейные поездки, города, отели и пляжи — аккуратно восстановленный архив старого zavalny.com.
+    Личный сайт: поездки, фильмы, шахматы и заметки. Путевые истории — восстановлены из старого zavalny.com.
   </p>
   <div class="cover-meta tag">
-    <span class="reveal"><strong>{{ travel_posts | size }}</strong>записей</span>
+    <span class="reveal"><strong>{{ travel_posts | size }}</strong>поездок</span>
     <span class="reveal"><strong>{{ years_span }}</strong>лет</span>
     <span class="reveal"><strong>{{ first_year }}</strong>→ {{ last_year }}</span>
-    <span class="reveal"><strong>RU</strong>язык</span>
+    <span class="reveal"><strong>Riga</strong>LV</span>
   </div>
 </section>
 
 <section class="section">
   <div class="section-head reveal">
     <div class="num">№ 01</div>
-    <h2>В этом выпуске</h2>
-    <div class="meta tag">Главная история</div>
+    <h2>Последняя поездка</h2>
+    <div class="meta tag">рекомендуем</div>
   </div>
 
   {% if featured %}
@@ -67,38 +67,36 @@ masthead_left:
 <section class="section">
   <div class="section-head reveal">
     <div class="num">№ 02</div>
-    <h2>Содержание</h2>
-    <div class="meta tag">Все главы · {{ travel_posts | size }}</div>
+    <h2>Свежие поездки</h2>
+    <div class="meta tag">последние · 6</div>
   </div>
 
-  <div class="contents">
-    {% assign current_year = nil %}
-    {% for post in travel_posts %}
-      {% assign year = post.date | date: "%Y" %}
-      {% if year != current_year %}
-        {% assign current_year = year %}
-        <div class="entry reveal" style="grid-template-columns: 56px 1fr; border-bottom-color: var(--rule-strong); padding-top: 20px;">
-          <div class="e-num">YR.</div>
-          <div style="font-family:'Spectral',serif;font-size:1.1rem;font-style:italic;color:var(--muted);font-weight:300;">{{ current_year }}</div>
-        </div>
-      {% endif %}
-
+  <div class="travel-cards">
+    {% assign latest = travel_posts | slice: 0, 6 %}
+    {% for post in latest %}
       {% assign image = nil %}
       {% assign chunks = post.content | split: '](' %}
       {% if chunks.size > 1 %}
         {% assign image = chunks[1] | split: ')' | first %}
       {% endif %}
-
-      <a href="{{ post.url | relative_url }}" class="entry reveal">
-        <span class="e-num">{{ forloop.index | prepend: "0" | slice: -2, 2 }}.</span>
-        <span class="e-title">{{ post.title }}</span>
-        <span class="e-place">Путешествия</span>
-        <span class="e-year">{{ post.date | date: "%Y.%m.%d" }}</span>
-        <span class="e-thumb {% unless image %}placeholder{% endunless %}">
-          {% if image %}<img src="{{ image }}" alt="" loading="lazy">{% endif %}
-        </span>
+      <a class="tcard reveal" href="{{ post.url | relative_url }}">
+        <div class="tcard__img">
+          {% if image %}
+            <img src="{{ image }}" alt="{{ post.title | escape }}" loading="lazy">
+          {% else %}
+            <div class="tcard__ph tag">No photo</div>
+          {% endif %}
+        </div>
+        <div class="tcard__body">
+          <div class="tag tcard__meta">{{ post.date | date: "%B %Y" }}</div>
+          <div class="tcard__title">{{ post.title }}</div>
+        </div>
       </a>
     {% endfor %}
+  </div>
+
+  <div class="reveal" style="margin-top: 22px; text-align:center;">
+    <a href="{{ '/travel/' | relative_url }}" class="link mono">Смотреть весь архив поездок →</a>
   </div>
 </section>
 
@@ -106,7 +104,7 @@ masthead_left:
   <div class="section-head reveal">
     <div class="num">№ 03</div>
     <h2>Разделы</h2>
-    <div class="meta tag">остальное</div>
+    <div class="meta tag">быстрый вход</div>
   </div>
 
   <div class="depts">

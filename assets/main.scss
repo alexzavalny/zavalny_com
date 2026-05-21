@@ -352,6 +352,33 @@ hr.rule.strong { border-top-color: var(--rule-strong); }
 .dept .d-more { margin-top: auto; color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; }
 .dept:hover .d-more { color: var(--red); }
 
+/* ============ HOME: TRAVEL CARDS ============ */
+.travel-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.tcard {
+  border: 1px solid var(--rule);
+  background: rgba(255,255,255,0.16);
+  transition: background .2s, border-color .2s, transform .2s;
+  overflow: hidden;
+  display: block;
+}
+.tcard:hover { background: rgba(196,56,33,.04); border-color: var(--rule-strong); transform: translateY(-2px); }
+.tcard__img { background: var(--paper-deep); aspect-ratio: 4/3; overflow: hidden; }
+.tcard__img img { width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(.88) contrast(1.02); }
+.tcard__ph { display: grid; place-items: center; height: 100%; }
+.tcard__body { padding: 14px 14px 16px; }
+.tcard__meta { margin-bottom: 8px; }
+.tcard__title {
+  font-family: 'Spectral', serif;
+  font-weight: 400;
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
 /* ============ FOOTER ============ */
 .foot {
   margin-top: 60px;
@@ -769,6 +796,7 @@ hr.rule.strong { border-top-color: var(--rule-strong); }
   .depts { grid-template-columns: 1fr; }
   .dept { border-right: 0; }
   .foot { grid-template-columns: 1fr 1fr; }
+  .travel-cards { grid-template-columns: 1fr; }
   .page-hero, .cv-hero { grid-template-columns: 1fr; gap: 32px; }
   .year-section { grid-template-columns: 1fr; }
   .year-section .y-mark { position: static; }
