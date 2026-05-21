@@ -156,6 +156,104 @@ a:hover { color: var(--zz-accent); text-decoration-color: var(--zz-accent); }
   line-height: 1.5;
 }
 
+.chess-profile-card,
+.rating-card {
+  border-radius: 28px;
+  background: var(--zz-surface);
+  box-shadow: var(--zz-shadow);
+}
+.chess-profile-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  margin: 0 0 38px;
+  padding: clamp(22px, 4vw, 34px);
+}
+.chess-label {
+  display: inline-flex;
+  margin-bottom: 8px;
+  color: var(--zz-accent);
+  font-size: .82rem;
+  font-weight: 850;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.chess-profile-card h2 { margin: 0 0 8px; }
+.chess-profile-card p { margin: 0; color: var(--zz-muted); }
+.chess-profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.chess-profile-links a {
+  padding: 9px 13px;
+  border-radius: 999px;
+  background: var(--zz-accent-soft);
+  color: var(--zz-ink);
+  font-weight: 750;
+  text-decoration: none;
+}
+.rating-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+.rating-card {
+  padding: 24px;
+  overflow: hidden;
+  position: relative;
+}
+.rating-card::before {
+  content: "♟";
+  position: absolute;
+  right: 18px;
+  top: 4px;
+  color: rgba(255,56,92,.09);
+  font-size: 5rem;
+  line-height: 1;
+}
+.rating-card__head {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+.rating-card__head h3 { margin: 0; font-size: 1.45rem; }
+.rating-card__head a { color: var(--zz-muted); font-size: .9rem; font-weight: 700; }
+.rating-list {
+  position: relative;
+  display: grid;
+  gap: 12px;
+}
+.rating-list div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 0;
+  border-top: 1px solid var(--zz-line);
+}
+.rating-list span { color: var(--zz-muted); font-weight: 700; }
+.rating-list strong {
+  color: var(--zz-ink);
+  font-size: 1.55rem;
+  letter-spacing: -0.04em;
+}
+.chess-updated {
+  margin-top: 24px;
+  color: var(--zz-muted);
+  font-size: .92rem;
+  font-weight: 650;
+}
+@media (max-width: 680px) {
+  .chess-profile-card { flex-direction: column; }
+  .chess-profile-links { justify-content: flex-start; }
+}
+
 .post-list,
 .travel-grid {
   list-style: none;
