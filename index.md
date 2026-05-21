@@ -7,6 +7,7 @@ title: Архив путешествий
   <h1>Архив путешествий zavalny.com</h1>
   <p>Семейные поездки, города, отели и пляжи — аккуратно восстановленный фотоархив старого zavalny.com.</p>
   <a class="cta" href="{{ '/travel/' | relative_url }}">Смотреть путешествия →</a>
+  <a class="cta cta--light" href="{{ '/movies/' | relative_url }}">Фильмы →</a>
 </section>
 
 <h2>Последние путешествия</h2>
