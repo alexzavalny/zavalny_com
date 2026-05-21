@@ -195,11 +195,65 @@ a:hover { color: var(--zz-accent); text-decoration-color: var(--zz-accent); }
   font-weight: 750;
   text-decoration: none;
 }
+.chess-stats-grid,
+.account-summary-grid,
 .rating-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 24px;
 }
+.chess-stats-grid { margin-bottom: 38px; }
+.stat-card,
+.account-summary-card {
+  padding: 22px;
+  border-radius: 24px;
+  background: var(--zz-surface);
+  box-shadow: var(--zz-shadow);
+}
+.stat-card span {
+  display: block;
+  color: var(--zz-muted);
+  font-weight: 750;
+}
+.stat-card strong {
+  display: block;
+  margin: 8px 0 4px;
+  font-size: clamp(2.2rem, 6vw, 4rem);
+  line-height: .95;
+  letter-spacing: -0.06em;
+}
+.stat-card small { color: var(--zz-muted); font-weight: 650; }
+.account-summary-grid { margin-top: 14px; }
+.account-summary-card h3 { margin-top: 0; }
+.account-summary-card p { margin: 8px 0; }
+.chess-table-wrap {
+  margin: 0 0 38px;
+  overflow-x: auto;
+  border-radius: 24px;
+  background: var(--zz-surface);
+  box-shadow: var(--zz-shadow);
+}
+.chess-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  margin: 0;
+}
+.chess-table th,
+.chess-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--zz-line);
+  text-align: left;
+}
+.chess-table th {
+  color: var(--zz-muted);
+  background: rgba(255, 240, 243, .72);
+  font-size: .82rem;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.chess-table td { font-weight: 650; }
+.chess-table tr:last-child td { border-bottom: 0; }
 .rating-card {
   padding: 24px;
   overflow: hidden;
