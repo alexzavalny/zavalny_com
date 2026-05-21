@@ -503,6 +503,13 @@ hr.rule.strong { border-top-color: var(--rule-strong); }
   width: 100%; display: block;
   background: var(--paper-deep);
 }
+.article-body p > img {
+  display: block;
+  width: calc(100% + 200px);
+  max-width: none;
+  margin: 56px -100px;
+  background: var(--paper-deep);
+}
 .article-body figcaption {
   margin-top: 12px;
   font-family: 'JetBrains Mono', monospace;
@@ -776,6 +783,7 @@ hr.rule.strong { border-top-color: var(--rule-strong); }
   .cv-grid-3, .cv-grid-2, .proj-list { grid-template-columns: 1fr; }
   .tl-item { grid-template-columns: 1fr; gap: 8px; }
   .article-body figure { margin-left: 0; margin-right: 0; }
+  .article-body p > img { width: 100%; max-width: 100%; margin: 32px 0; }
   .section-head { grid-template-columns: 1fr; gap: 8px; }
   .section-head .meta { text-align: left; }
 }
