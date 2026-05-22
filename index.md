@@ -22,7 +22,7 @@ masthead_left:
   </div>
   <h1 class="cover-title split-line">zavalny<em>.com</em></h1>
   <p class="cover-standfirst reveal">
-    Личный сайт: поездки, фильмы, шахматы и заметки. Путевые истории — восстановлены из старого zavalny.com.
+    Личный сайт: поездки, фильмы, шахматы, гаджеты и заметки. Путевые истории — восстановлены из старого zavalny.com.
   </p>
   <div class="cover-meta tag">
     <span class="reveal"><strong>{{ travel_posts | size }}</strong>поездок</span>
@@ -124,6 +124,12 @@ masthead_left:
       <div class="tag d-tag">Раздел IV</div>
       <div class="d-title">Шахматы <em>и рейтинг</em></div>
       <div class="d-desc">Профили, статусы и заметки про игру.</div>
+      <div class="d-more">Открыть →</div>
+    </a>
+    <a class="dept reveal" href="{{ '/gadgets/' | relative_url }}">
+      <div class="tag d-tag">Раздел V</div>
+      <div class="d-title">Гаджеты <em>из Obsidian</em></div>
+      <div class="d-desc">Личная полка техники — без машины, зато с фото.</div>
       <div class="d-more">Открыть →</div>
     </a>
   </div>
