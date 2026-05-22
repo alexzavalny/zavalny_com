@@ -68,11 +68,12 @@ masthead_right:
       var bounds = [];
       points.forEach(function (point) {
         var marker = L.circleMarker([point.lat, point.lon], {
-          radius: 7,
+          radius: 7.5,
           color: '#f3ede0',
-          weight: 2,
+          weight: 2.5,
           fillColor: '#c43821',
-          fillOpacity: 0.95
+          fillOpacity: 0.92,
+          opacity: 0.95
         }).addTo(map);
         marker.bindPopup('<strong>' + point.title + '</strong><br><span>' + point.label + '</span><br><a href="' + point.url + '">Открыть фотоотчёт →</a>');
         marker.on('click', function () { window.location.href = point.url; });
