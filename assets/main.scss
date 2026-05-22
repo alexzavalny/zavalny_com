@@ -276,6 +276,47 @@ hr.rule.strong { border-top-color: var(--rule-strong); }
 }
 .entry:hover .e-title { color: var(--red); }
 
+/* ============ TRAVEL MAP ============ */
+.travel-map-section {
+  padding: clamp(24px, 5vw, 56px) 0 clamp(56px, 8vw, 96px);
+  border-bottom: 1px solid var(--rule);
+}
+.travel-map-head {
+  display: grid;
+  grid-template-columns: 1fr minmax(260px, 420px);
+  gap: 28px;
+  align-items: end;
+  margin-bottom: 22px;
+}
+.travel-map-head h2 {
+  font-family: 'Spectral', serif;
+  font-weight: 400;
+  font-size: clamp(1.8rem, 3.4vw, 2.8rem);
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+  margin-top: 6px;
+}
+.travel-map-head p {
+  color: var(--ink-2);
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.travel-map {
+  border: 1px solid var(--rule-strong);
+  background: var(--paper-deep);
+  overflow: hidden;
+  height: clamp(360px, 52vw, 620px);
+}
+.travel-map .leaflet-container { font-family: 'Spectral', Georgia, serif; }
+.travel-map .leaflet-control-attribution,
+.travel-map .leaflet-control-zoom a { font-family: 'JetBrains Mono', monospace; }
+.travel-map .leaflet-popup-content-wrapper,
+.travel-map .leaflet-popup-tip { background: var(--paper); color: var(--ink); }
+.travel-map .leaflet-popup-content { font-size: .96rem; line-height: 1.35; }
+.travel-map .leaflet-popup-content strong { font-family: 'Spectral', serif; font-size: 1.05rem; }
+.travel-map .leaflet-popup-content a { color: var(--red); }
+
 /* ============ FEATURE BLOCK ============ */
 .feature {
   display: grid;
@@ -964,6 +1005,7 @@ hr.rule.strong { border-top-color: var(--rule-strong); }
   .masthead .left, .masthead .right { text-align: center; align-items: center; }
   .masthead .right { order: 3; }
   .wordmark { text-align: center; }
+  .travel-map-head { grid-template-columns: 1fr; }
   .entry { grid-template-columns: 40px 1fr 48px; gap: 16px; }
   .entry .e-place, .entry .e-year { display: none; }
   .feature { grid-template-columns: 1fr; }

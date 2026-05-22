@@ -1,9 +1,14 @@
 ---
+
 layout: post
 title: "Чайная церемония в Mandarin Oriental Hong Kong"
 date: 2019-08-17 00:00:00 +0000
 categories: travel
 slug: "mandarin-oriental-hong-kong"
+gps:
+  lat: 22.2819
+  lon: 114.1598
+  label: "Mandarin Oriental Hong Kong"
 archive_url: "https://web.archive.org/web/20190817181345/https://www.zavalny.com/travel/mandarin-oriental-hong-kong"
 original_url: "https://www.zavalny.com/travel/mandarin-oriental-hong-kong"
 ---

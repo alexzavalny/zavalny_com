@@ -33,6 +33,56 @@ masthead_right:
   </div>
 </section>
 
+<section class="travel-map-section reveal">
+  <div class="travel-map-head">
+    <div>
+      <span class="tag">География архива</span>
+      <h2>Карта поездок</h2>
+    </div>
+    <p>Точки ведут к фотоотчётам. Координаты сохранены в frontmatter каждой записи.</p>
+  </div>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <div id="travel-map" class="travel-map" aria-label="Карта путешествий zavalny.com"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    (function () {
+      if (!window.L) return;
+      var points = [
+        {% for post in travel_posts %}
+          {% if post.gps %}
+            {
+              title: {{ post.title | jsonify }},
+              label: {{ post.gps.label | default: post.title | jsonify }},
+              url: {{ post.url | relative_url | jsonify }},
+              lat: {{ post.gps.lat }},
+              lon: {{ post.gps.lon }}
+            }{% unless forloop.last %},{% endunless %}
+          {% endif %}
+        {% endfor %}
+      ];
+      var map = L.map('travel-map', { scrollWheelZoom: false, worldCopyJump: true }).setView([34, 18], 2);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: '&copy; OpenStreetMap'
+      }).addTo(map);
+      var bounds = [];
+      points.forEach(function (point) {
+        var marker = L.circleMarker([point.lat, point.lon], {
+          radius: 7,
+          color: '#f3ede0',
+          weight: 2,
+          fillColor: '#c43821',
+          fillOpacity: 0.95
+        }).addTo(map);
+        marker.bindPopup('<strong>' + point.title + '</strong><br><span>' + point.label + '</span><br><a href="' + point.url + '">Открыть фотоотчёт →</a>');
+        marker.on('click', function () { window.location.href = point.url; });
+        bounds.push([point.lat, point.lon]);
+      });
+      if (bounds.length) map.fitBounds(bounds, { padding: [22, 22] });
+    }());
+  </script>
+</section>
+
 {% assign grouped = travel_posts | group_by_exp: "p", "p.date | date: '%Y'" %}
 {% for group in grouped %}
   <section class="year-section reveal">
