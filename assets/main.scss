@@ -330,10 +330,7 @@ hr.rule.strong { border-top-color: var(--rule-strong); }
   background: var(--paper);
   color: var(--red);
 }
-.travel-map .leaflet-control-attribution {
-  background: rgba(243, 237, 224, .82);
-  color: var(--ink-2);
-}
+.travel-map .leaflet-control-attribution { display: none; }
 .travel-map .leaflet-popup-content-wrapper,
 .travel-map .leaflet-popup-tip {
   background: var(--paper);
