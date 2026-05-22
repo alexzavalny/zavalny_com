@@ -5,7 +5,7 @@ permalink: /chess/
 masthead_left:
   - "Раздел IV"
   - "Шахматы"
-  - "Обновлено 21 мая 2026"
+  - "Обновлено 22 мая 2026"
 masthead_right:
   - "FIDE 11654651"
   - "Lichess @AlexIsNot"
@@ -23,8 +23,8 @@ masthead_right:
     </p>
     <div class="h-figures">
       <div class="fig"><strong>2016</strong><span class="tag">Lichess puzzle</span></div>
-      <div class="fig"><strong>8 264</strong><span class="tag">партии</span></div>
-      <div class="fig"><strong>49.8 %</strong><span class="tag">win rate</span></div>
+      <div class="fig"><strong>8 288</strong><span class="tag">партии</span></div>
+      <div class="fig"><strong>49.9 %</strong><span class="tag">победы</span></div>
     </div>
   </div>
 </section>
@@ -37,18 +37,18 @@ masthead_right:
   </div>
   <div class="cs">
     <span class="label">Лучший в игре</span>
-    <span class="v">1884</span>
+    <span class="v">1901</span>
     <span class="sub">Lichess · Rapid</span>
   </div>
   <div class="cs">
     <span class="label">Партий на Lichess</span>
-    <span class="v">2 937</span>
-    <span class="sub">1461‑115‑1361</span>
+    <span class="v">2 953</span>
+    <span class="sub">1469‑117‑1367</span>
   </div>
   <div class="cs">
     <span class="label">Партий на Chess.com</span>
-    <span class="v">5 327</span>
-    <span class="sub">2658‑218‑2451</span>
+    <span class="v">5 335</span>
+    <span class="sub">2664‑218‑2453</span>
   </div>
 </section>
 
@@ -76,7 +76,7 @@ masthead_right:
         <a href="https://lichess.org/@/AlexIsNot" class="link" target="_blank" rel="noopener">@AlexIsNot</a>
       </div>
       <div class="rows">
-        <div class="rr"><span class="k">Rapid</span><span class="vv">1884</span></div>
+        <div class="rr"><span class="k">Rapid</span><span class="vv">1901</span></div>
         <div class="rr"><span class="k">Blitz</span><span class="vv">1810</span></div>
         <div class="rr"><span class="k">Bullet</span><span class="vv">1630</span></div>
         <div class="rr"><span class="k">Puzzle</span><span class="vv" style="color:var(--red);">2016</span></div>
@@ -88,7 +88,7 @@ masthead_right:
         <a href="https://www.chess.com/member/SonicSpeedMate" class="link" target="_blank" rel="noopener">SonicSpeedMate</a>
       </div>
       <div class="rows">
-        <div class="rr"><span class="k">Rapid</span><span class="vv">1773</span></div>
+        <div class="rr"><span class="k">Rapid</span><span class="vv">1805</span></div>
         <div class="rr"><span class="k">Blitz</span><span class="vv">1585</span></div>
         <div class="rr"><span class="k">Bullet</span><span class="vv">1156</span></div>
         <div class="rr"><span class="k">Daily</span><span class="vv">1127</span></div>
@@ -109,11 +109,11 @@ masthead_right:
       <tbody>
         <tr><td>FIDE</td><td>Rapid</td><td>1675</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
         <tr><td>FIDE</td><td>Blitz</td><td>1598</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-        <tr><td>Lichess</td><td>Rapid</td><td>1884</td><td>—</td><td>404</td><td>—</td><td>—</td></tr>
+        <tr><td>Lichess</td><td>Rapid</td><td>1901</td><td>—</td><td>420</td><td>—</td><td>—</td></tr>
         <tr><td>Lichess</td><td>Blitz</td><td>1810</td><td>—</td><td>2 195</td><td>—</td><td>—</td></tr>
         <tr><td>Lichess</td><td>Bullet</td><td>1630</td><td>—</td><td>296</td><td>—</td><td>—</td></tr>
         <tr><td>Lichess</td><td>Puzzle</td><td style="color:var(--red);font-weight:600;">2016</td><td>—</td><td>298</td><td>—</td><td>—</td></tr>
-        <tr><td>Chess.com</td><td>Rapid</td><td>1773</td><td>1781</td><td>584</td><td>310 — 31 — 243</td><td>53.1 %</td></tr>
+        <tr><td>Chess.com</td><td>Rapid</td><td>1805</td><td>1805</td><td>592</td><td>316 — 31 — 245</td><td>53.4 %</td></tr>
         <tr><td>Chess.com</td><td>Blitz</td><td>1585</td><td>1610</td><td>3 255</td><td>1595 — 145 — 1515</td><td>49.0 %</td></tr>
         <tr><td>Chess.com</td><td>Bullet</td><td>1156</td><td>1284</td><td>1 413</td><td>706 — 39 — 668</td><td>50.0 %</td></tr>
         <tr><td>Chess.com</td><td>Daily</td><td>1127</td><td>1147</td><td>75</td><td>47 — 3 — 25</td><td>62.7 %</td></tr>
@@ -135,10 +135,11 @@ masthead_right:
         <a href="https://lichess.org/@/AlexIsNot" class="link" target="_blank" rel="noopener">@AlexIsNot</a>
       </div>
       <div class="rows">
-        <div class="rr"><span class="k">Всего партий</span><span class="vv">2 937</span></div>
-        <div class="rr"><span class="k">Rated</span><span class="vv">2 904</span></div>
-        <div class="rr"><span class="k">Баланс W‑D‑L</span><span class="vv" style="font-size:1.2rem;">1461 · 115 · 1361</span></div>
-        <div class="rr"><span class="k">Win rate</span><span class="vv">49.7 %</span></div>
+        <div class="rr"><span class="k">Всего партий</span><span class="vv">2 953</span></div>
+        <div class="rr"><span class="k">Rated</span><span class="vv">2 920</span></div>
+        <div class="rr"><span class="k">Баланс W‑D‑L</span><span class="vv" style="font-size:1.2rem;">1469 · 117 · 1367</span></div>
+        <div class="rr"><span class="k">Победы</span><span class="vv">49.7 %</span></div>
+        <div class="rr"><span class="k">Score rate</span><span class="vv">51.7 %</span></div>
         <div class="rr"><span class="k">Puzzle Storm</span><span class="vv">35</span></div>
         <div class="rr"><span class="k">Puzzle Racer</span><span class="vv">42</span></div>
         <div class="rr"><span class="k">Puzzle Streak</span><span class="vv">33</span></div>
@@ -150,9 +151,10 @@ masthead_right:
         <a href="https://www.chess.com/member/SonicSpeedMate" class="link" target="_blank" rel="noopener">SonicSpeedMate</a>
       </div>
       <div class="rows">
-        <div class="rr"><span class="k">Всего партий</span><span class="vv">5 327</span></div>
-        <div class="rr"><span class="k">Баланс W‑D‑L</span><span class="vv" style="font-size:1.2rem;">2658 · 218 · 2451</span></div>
-        <div class="rr"><span class="k">Win rate</span><span class="vv">49.9 %</span></div>
+        <div class="rr"><span class="k">Всего партий</span><span class="vv">5 335</span></div>
+        <div class="rr"><span class="k">Баланс W‑D‑L</span><span class="vv" style="font-size:1.2rem;">2664 · 218 · 2453</span></div>
+        <div class="rr"><span class="k">Победы</span><span class="vv">49.9 %</span></div>
+        <div class="rr"><span class="k">Score rate</span><span class="vv">52.0 %</span></div>
         <div class="rr"><span class="k">Tactics high</span><span class="vv">1902</span></div>
         <div class="rr"><span class="k">Puzzle Rush</span><span class="vv">46 / 49</span></div>
         <div class="rr"><span class="k">Статус</span><span class="vv muted" style="font-size:1.05rem;">premium</span></div>
@@ -163,5 +165,5 @@ masthead_right:
 </section>
 
 <p class="tag reveal" style="text-align:center;padding-bottom:48px;">
-  Данные из публичных профилей · обновлено 2026.05.21
+  Данные из публичных профилей · обновлено 2026.05.22
 </p>
