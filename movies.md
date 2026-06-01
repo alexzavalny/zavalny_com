@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Фильмы
 permalink: /movies/
 masthead_left:
@@ -14,11 +14,11 @@ masthead_right:
 <section class="page-hero">
   <div class="h-left">
     <span class="tag reveal">Раздел III · Кино</span>
-    <h1 class="split-line">Хочется <em>пересматривать</em></h1>
+    <h1 class="split-line">Фильмы, которые хочется <em>пересматривать</em></h1>
   </div>
   <div class="h-right reveal">
     <p class="h-stand">
-      Личная подборка из обсидиановой заметки «Супер фильмы которые хочется пересматривать». Без рецензий и оценок — просто список, к которому я возвращаюсь.
+      Личная подборка из обсидиановой заметки «Супер фильмы которые хочется пересматривать». Без рецензий — просто список, к которому я возвращаюсь.
     </p>
   </div>
 </section>
@@ -351,8 +351,6 @@ masthead_right:
     <div class="movie-card__body">
       <h2>Марсианин</h2>
       <p class="movie-card__meta"></p>
-      
-      
     </div>
   </article>
 </div>
