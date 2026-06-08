@@ -347,10 +347,12 @@ masthead_right:
     </div>
   </article>
   <article class="movie-card">
-    <div class="movie-card__poster movie-card__poster--empty">🎬</div>
+    <img class="movie-card__poster" src="https://m.media-amazon.com/images/M/MV5BNTBiYWJlMjQtOTIyMy00NTY4LWFhOWItOWZhNzc3NGMyMjc2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg" alt="KPop Demon Hunters" loading="lazy">
     <div class="movie-card__body">
-      <h2>Марсианин</h2>
-      <p class="movie-card__meta"></p>
+      <h2>KPop Demon Hunters</h2>
+      <p class="movie-card__meta">2025 · IMDb 7.4 · 95 min</p>
+      <p class="movie-card__plot">A world-renowned K-Pop girl group balance their lives in the spotlight with their secret identities as demon hunters.</p>
+      <p class="movie-card__credits"><strong>Режиссёр:</strong> Chris Appelhans, Maggie Kang<br><strong>В ролях:</strong> Arden Cho, May Hong, Ji-young Yoo</p>
     </div>
   </article>
 </div>
