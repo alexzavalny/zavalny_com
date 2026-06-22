@@ -181,7 +181,7 @@ masthead_right:
       <h2>Wednesday</h2>
       <p class="movie-card__meta">2022– · IMDb 8.0</p>
       <p class="movie-card__plot">Follows Wednesday Addams&#x27; years as a student, when she attempts to master her emerging psychic ability, thwart a killing spree, and solve the mystery that embroiled her parents.</p>
-      <p class="movie-card__credits"><strong>Режиссёр:</strong> N/A<br><strong>В ролях:</strong> Jenna Ortega, Hunter Doohan, Emma Myers</p>
+      <p class="movie-card__credits"><strong>В ролях:</strong> Jenna Ortega, Hunter Doohan, Emma Myers</p>
     </div>
   </article>
   <article class="movie-card">
@@ -356,5 +356,4 @@ masthead_right:
     </div>
   </article>
 </div>
-
 </section>
