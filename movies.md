@@ -341,7 +341,7 @@ masthead_right:
     <img class="movie-card__poster" src="https://m.media-amazon.com/images/M/MV5BNTkwNzJiYTctNzI3NC00NjE1LTlhYjktY2Q5MTdmMWFmNzcxXkEyXkFqcGc@._V1_SX300.jpg" alt="Project Hail Mary" loading="lazy">
     <div class="movie-card__body">
       <h2>Project Hail Mary</h2>
-      <p class="movie-card__meta">2026 · 156 min</p>
+      <p class="movie-card__meta">2026 · IMDb N/A · 156 min</p>
       <p class="movie-card__plot">Science teacher Ryland Grace wakes up alone on a spaceship light-years from Earth. As his memory returns, he uncovers a mission to stop a mysterious substance killing the sun, and save Earth. An unexpected friendship may be the key.</p>
       <p class="movie-card__credits"><strong>Режиссёр:</strong> Phil Lord, Christopher Miller<br><strong>В ролях:</strong> Ryan Gosling, Milana Vayntrub, Ken Leung</p>
     </div>
