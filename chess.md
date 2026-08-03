@@ -5,7 +5,7 @@ permalink: /chess/
 masthead_left:
   - "Раздел IV"
   - "Шахматы"
-  - "Обновлено 27 июля 2026"
+  - "Обновлено 3 августа 2026"
 masthead_right:
   - "FIDE 11654651"
   - "Lichess @AlexIsNot"
@@ -35,9 +35,9 @@ masthead_right:
 </section>
 
 <section class="section reveal" style="padding-top: 40px; padding-bottom: 0;">
-  <div class="section-head"><div class="num">№ 01</div><h2>Рейтинги по платформам</h2><div class="meta tag">27 июля 2026</div></div>
+  <div class="section-head"><div class="num">№ 01</div><h2>Рейтинги по платформам</h2><div class="meta tag">3 августа 2026</div></div>
   <div class="rating-grid">
-    <div class="rcard"><div class="head"><h3>FIDE</h3><a href="https://ratings.fide.com/profile/11654651" class="link" target="_blank" rel="noopener">ratings.fide.com</a></div><div class="rows"><div class="rr"><span class="k">Standard</span><span class="vv muted">— не рейтингован</span></div><div class="rr"><span class="k">Rapid</span><span class="vv">1 675</span></div><div class="rr"><span class="k">Blitz</span><span class="vv">1 569</span></div></div></div>
+    <div class="rcard"><div class="head"><h3>FIDE</h3><a href="https://ratings.fide.com/profile/11654651" class="link" target="_blank" rel="noopener">ratings.fide.com</a></div><div class="rows"><div class="rr"><span class="k">Standard</span><span class="vv muted">— не рейтингован</span></div><div class="rr"><span class="k">Rapid</span><span class="vv">1 675</span></div><div class="rr"><span class="k">Blitz</span><span class="vv">1 547</span></div></div></div>
     <div class="rcard"><div class="head"><h3>Lichess</h3><a href="https://lichess.org/@/AlexIsNot" class="link" target="_blank" rel="noopener">@AlexIsNot</a></div><div class="rows"><div class="rr"><span class="k">Rapid</span><span class="vv">1 914</span></div><div class="rr"><span class="k">Blitz</span><span class="vv">1 863</span></div><div class="rr"><span class="k">Bullet</span><span class="vv">1 709</span></div><div class="rr"><span class="k">Puzzle</span><span class="vv" style="color:var(--red);">2 218</span></div></div></div>
     <div class="rcard"><div class="head"><h3>Chess.com</h3><a href="https://www.chess.com/member/SonicSpeedMate" class="link" target="_blank" rel="noopener">SonicSpeedMate</a></div><div class="rows"><div class="rr"><span class="k">Rapid</span><span class="vv">1 821</span></div><div class="rr"><span class="k">Blitz</span><span class="vv">1 585</span></div><div class="rr"><span class="k">Bullet</span><span class="vv">1 156</span></div><div class="rr"><span class="k">Daily</span><span class="vv">1 127</span></div></div></div>
   </div>
@@ -48,7 +48,7 @@ masthead_right:
   <div class="ctable-wrap"><table class="ctable"><thead><tr><th>Платформа</th><th>Контроль</th><th>Рейтинг</th><th>Лучший</th><th>Партии</th><th>W‑D‑L</th><th>Победы</th></tr></thead><tbody>
         <tr><td>FIDE</td><td>Standard</td><td>— не рейтингован</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>FIDE</td><td>Rapid</td><td>1 675</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-<tr><td>FIDE</td><td>Blitz</td><td>1 569</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>FIDE</td><td>Blitz</td><td>1 547</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>Lichess</td><td>Rapid</td><td>1 914</td><td>—</td><td>457</td><td>—</td><td>—</td></tr>
 <tr><td>Lichess</td><td>Blitz</td><td>1 863</td><td>—</td><td>2 705</td><td>—</td><td>—</td></tr>
 <tr><td>Lichess</td><td>Bullet</td><td>1 709</td><td>—</td><td>354</td><td>—</td><td>—</td></tr>
@@ -69,4 +69,4 @@ masthead_right:
   </div>
 </section>
 
-<p class="tag reveal" style="text-align:center;padding-bottom:48px;">Данные из публичных профилей · обновлено 27 июля 2026</p>
+<p class="tag reveal" style="text-align:center;padding-bottom:48px;">Данные из публичных профилей · обновлено 3 августа 2026</p>
