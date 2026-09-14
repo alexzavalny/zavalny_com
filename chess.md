@@ -29,7 +29,7 @@ masthead_right:
 
 <section class="chess-stat-row reveal" aria-label="Коротко">
   <div class="cs"><span class="label">Лучший рейтинг</span><span class="v">2 229</span><span class="sub">головоломки / рейтинги</span></div>
-  <div class="cs"><span class="label">Лучший в игре</span><span class="v">2 229</span><span class="sub">актуальный рейтинг</span></div>
+  <div class="cs"><span class="label">Лучший в игре</span><span class="v">1 930</span><span class="sub">актуальный рейтинг</span></div>
   <div class="cs"><span class="label">Партий на Lichess</span><span class="v">3 817</span><span class="sub">1 888‑165‑1 764</span></div>
   <div class="cs"><span class="label">Партий на Chess.com</span><span class="v">5 369</span><span class="sub">2 680‑222‑2 467</span></div>
 </section>
@@ -37,7 +37,7 @@ masthead_right:
 <section class="section reveal" style="padding-top: 40px; padding-bottom: 0;">
   <div class="section-head"><div class="num">№ 01</div><h2>Рейтинги по платформам</h2><div class="meta tag">14 сентября 2026</div></div>
   <div class="rating-grid">
-    <div class="rcard"><div class="head"><h3>FIDE</h3><a href="https://ratings.fide.com/profile/11654651" class="link" target="_blank" rel="noopener">ratings.fide.com</a></div><div class="rows"><div class="rr"><span class="k">Standard</span><span class="vv muted">— не рейтингован</span></div><div class="rr"><span class="k">Rapid</span><span class="vv">1675</span></div><div class="rr"><span class="k">Blitz</span><span class="vv">1547</span></div></div></div>
+    <div class="rcard"><div class="head"><h3>FIDE</h3><a href="https://ratings.fide.com/profile/11654651" class="link" target="_blank" rel="noopener">ratings.fide.com</a></div><div class="rows"><div class="rr"><span class="k">Standard</span><span class="vv muted">— не рейтингован</span></div><div class="rr"><span class="k">Rapid</span><span class="vv">1 675</span></div><div class="rr"><span class="k">Blitz</span><span class="vv">1 547</span></div></div></div>
     <div class="rcard"><div class="head"><h3>Lichess</h3><a href="https://lichess.org/@/AlexIsNot" class="link" target="_blank" rel="noopener">@AlexIsNot</a></div><div class="rows"><div class="rr"><span class="k">Rapid</span><span class="vv">1 919</span></div><div class="rr"><span class="k">Blitz</span><span class="vv">1 930</span></div><div class="rr"><span class="k">Bullet</span><span class="vv">1 709</span></div><div class="rr"><span class="k">Puzzle</span><span class="vv" style="color:var(--red);">2 229</span></div></div></div>
     <div class="rcard"><div class="head"><h3>Chess.com</h3><a href="https://www.chess.com/member/SonicSpeedMate" class="link" target="_blank" rel="noopener">SonicSpeedMate</a></div><div class="rows"><div class="rr"><span class="k">Rapid</span><span class="vv">1 821</span></div><div class="rr"><span class="k">Blitz</span><span class="vv">1 569</span></div><div class="rr"><span class="k">Bullet</span><span class="vv">1 156</span></div><div class="rr"><span class="k">Daily</span><span class="vv">1 127</span></div></div></div>
   </div>
@@ -47,8 +47,8 @@ masthead_right:
   <div class="section-head"><div class="num">№ 02</div><h2>Статистика по контролям</h2><div class="meta tag">таблица</div></div>
   <div class="ctable-wrap"><table class="ctable"><thead><tr><th>Платформа</th><th>Контроль</th><th>Рейтинг</th><th>Лучший</th><th>Партии</th><th>W‑D‑L</th><th>Победы</th></tr></thead><tbody>
         <tr><td>FIDE</td><td>Standard</td><td>— не рейтингован</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-<tr><td>FIDE</td><td>Rapid</td><td>1675</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-<tr><td>FIDE</td><td>Blitz</td><td>1547</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>FIDE</td><td>Rapid</td><td>1 675</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>FIDE</td><td>Blitz</td><td>1 547</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>Lichess</td><td>Rapid</td><td>1 919</td><td>—</td><td>463</td><td>—</td><td>—</td></tr>
 <tr><td>Lichess</td><td>Blitz</td><td>1 930</td><td>—</td><td>2 945</td><td>—</td><td>—</td></tr>
 <tr><td>Lichess</td><td>Bullet</td><td>1 709</td><td>—</td><td>354</td><td>—</td><td>—</td></tr>
