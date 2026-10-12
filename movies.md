@@ -355,5 +355,23 @@ masthead_right:
       <p class="movie-card__credits"><strong>Режиссёр:</strong> Chris Appelhans, Maggie Kang<br><strong>В ролях:</strong> Arden Cho, May Hong, Ji-young Yoo</p>
     </div>
   </article>
+  <article class="movie-card">
+    <img class="movie-card__poster" src="https://m.media-amazon.com/images/M/MV5BMTMyNTIxOTQ3M15BMl5BanBnXkFtZTcwMjU2NzAzMw@@._V1_SX300.jpg" alt="Disturbia" loading="lazy">
+    <div class="movie-card__body">
+      <h2>Disturbia</h2>
+      <p class="movie-card__meta">2007 · IMDb 6.8 · 105 min</p>
+      <p class="movie-card__plot">A bored teenager under house arrest starts spying on his neighbors and discovers one of them might be a serial killer.</p>
+      <p class="movie-card__credits"><strong>Режиссёр:</strong> D.J. Caruso<br><strong>В ролях:</strong> Shia LaBeouf, David Morse, Carrie-Anne Moss</p>
+    </div>
+  </article>
+  <article class="movie-card">
+    <img class="movie-card__poster" src="https://m.media-amazon.com/images/M/MV5BYjFkZTkzZTQtNjM1ZS00M2EyLWE3MTAtMmY5Yzk0NTc0NDc3XkEyXkFqcGc@._V1_SX300.jpg" alt="Hot Fuzz" loading="lazy">
+    <div class="movie-card__body">
+      <h2>Hot Fuzz</h2>
+      <p class="movie-card__meta">2007 · IMDb 7.8 · 121 min</p>
+      <p class="movie-card__plot">An overachieving London police sergeant is transferred to a village where the easygoing officers object to his fervor for regulations, all while a string of grisly murders strikes the town.</p>
+      <p class="movie-card__credits"><strong>Режиссёр:</strong> Edgar Wright<br><strong>В ролях:</strong> Simon Pegg, Nick Frost, Martin Freeman</p>
+    </div>
+  </article>
 </div>
 </section>
