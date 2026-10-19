@@ -373,5 +373,10 @@ masthead_right:
       <p class="movie-card__credits"><strong>Режиссёр:</strong> Edgar Wright<br><strong>В ролях:</strong> Simon Pegg, Nick Frost, Martin Freeman</p>
     </div>
   </article>
+  <article class="movie-card">
+    <div class="movie-card__body">
+      <h2>Практическая магия</h2>
+    </div>
+  </article>
 </div>
 </section>
