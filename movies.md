@@ -374,8 +374,21 @@ masthead_right:
     </div>
   </article>
   <article class="movie-card">
+    <img class="movie-card__poster" src="https://m.media-amazon.com/images/M/MV5BMTg3MjgyNjE1Nl5BMl5BanBnXkFtZTcwNTY1NDU0MQ@@._V1_QL75_UX380_CR0,1,380,562_.jpg" alt="Next" loading="lazy">
     <div class="movie-card__body">
-      <h2>Практическая магия</h2>
+      <h2>Next</h2>
+      <p class="movie-card__meta">2007 · IMDb 6.2 · 96 min</p>
+      <p class="movie-card__plot">A Las Vegas magician who can see into the future is pursued by FBI agents seeking to use his abilities to prevent a nuclear terrorist attack.</p>
+      <p class="movie-card__credits"><strong>Режиссёр:</strong> Lee Tamahori<br><strong>В ролях:</strong> Nicolas Cage, Julianne Moore, Jessica Biel</p>
+    </div>
+  </article>
+  <article class="movie-card">
+    <img class="movie-card__poster" src="https://m.media-amazon.com/images/M/MV5BOGM3ZjFhZjAtOTdlMS00MTY2LThjYmYtMTA2ZWM3YjdiM2E4XkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg" alt="Practical Magic" loading="lazy">
+    <div class="movie-card__body">
+      <h2>Practical Magic</h2>
+      <p class="movie-card__meta">1998 · IMDb 6.4 · 104 min</p>
+      <p class="movie-card__plot">Two witch sisters, raised by their eccentric aunts in a small town, face closed-minded prejudice and a curse which threatens to prevent them ever finding lasting love.</p>
+      <p class="movie-card__credits"><strong>Режиссёр:</strong> Griffin Dunne<br><strong>В ролях:</strong> Sandra Bullock, Nicole Kidman, Stockard Channing</p>
     </div>
   </article>
 </div>
