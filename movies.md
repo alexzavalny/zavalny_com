@@ -391,5 +391,14 @@ masthead_right:
       <p class="movie-card__credits"><strong>Режиссёр:</strong> Griffin Dunne<br><strong>В ролях:</strong> Sandra Bullock, Nicole Kidman, Stockard Channing</p>
     </div>
   </article>
+  <article class="movie-card">
+    <img class="movie-card__poster" src="https://m.media-amazon.com/images/M/MV5BNTA4OTc2MDc4Nl5BMl5BanBnXkFtZTYwNjUyODY2._V1_QL75_UY562_CR2,0,380,562_.jpg" alt="Keeping Mum" loading="lazy">
+    <div class="movie-card__body">
+      <h2>Keeping Mum</h2>
+      <p class="movie-card__meta">2006 · IMDb 6.8 · 99 min</p>
+      <p class="movie-card__plot">A pastor preoccupied with writing the perfect sermon fails to realize that his wife is having an affair, and his children are up to no good.</p>
+      <p class="movie-card__credits"><strong>Режиссёр:</strong> Niall Johnson<br><strong>В ролях:</strong> Rowan Atkinson, Kristin Scott Thomas, Maggie Smith</p>
+    </div>
+  </article>
 </div>
 </section>
